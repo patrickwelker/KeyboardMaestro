@@ -5,7 +5,7 @@ Collection of Keyboard Maestro Macros
 
 ### OmniFocus Perspectives Macros
 
-![omnifocus-perspectives-preview](https://github.com/pattulus/KeyboardMaestro/blob/master/previews/omnifocus-perspectives-preview.jpg)
+![omnifocus-perspectives-preview](http://cl.ly/LwAM/omnifocus-perspectives-preview.jpg)
 
 A palette that can be triggered via a global hotkey and displays your favorite OmniFocus perspectives.
 
