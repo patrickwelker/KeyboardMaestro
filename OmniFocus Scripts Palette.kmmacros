@@ -1,0 +1,2523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>50</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>tell application "OmniFocus"	tell content of document window 1 of default document		set taskList to get value of selected trees		repeat with aTask in taskList			set theProject to containing project of aTask			move aTask to beginning of tasks of theProject			--move aTask to end of tasks of theProject		end repeat	end tellend tell</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>00)Move to Top [↑]</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>126</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>AABCE07A-0284-435C-B8A8-567CDCE2940E</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>4096</integer>
+		<key>Name</key>
+		<string> :: OmniFocus Script Palette</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.omnigroup.OmniFocus</string>
+					<key>Creator</key>
+					<integer>1330007875</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>OmniFocus</string>
+					<key>NewFile</key>
+					<string>/Applications/OmniFocus.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>EEEDF61C-7E84-411D-8B06-3BA5E4C3E326</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>50</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>tell application "OmniFocus"	tell content of document window 1 of default document		set taskList to get value of selected trees		repeat with aTask in taskList			set theProject to containing project of aTask			--move aTask to beginning of tasks of theProject			move aTask to end of tasks of theProject		end repeat	end tellend tell</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>01)Move to Bottom [↓]</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>125</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>2498CC67-91BC-4CB7-BA7F-23A2C574DACC</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>4096</integer>
+		<key>Name</key>
+		<string> :: OmniFocus Script Palette</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.omnigroup.OmniFocus</string>
+					<key>Creator</key>
+					<integer>1330007875</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>OmniFocus</string>
+					<key>NewFile</key>
+					<string>/Applications/OmniFocus.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>EEEDF61C-7E84-411D-8B06-3BA5E4C3E326</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>50</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>(*
+	# DESCRIPTION #
+	
+	This script "snoozes" the currently selected actions or projects by setting the start date to 
+	given number of days in the future.
+	
+	
+	# LICENSE #
+	
+	Copyright © 2010 Dan Byler (contact: dbyler@gmail.com)
+	Licensed under MIT License (http://www.opensource.org/licenses/mit-license.php)
+	(TL;DR: no warranty, do whatever you want with it.)
+	
+	
+	# CHANGE HISTORY #
+	
+	0.41 (2011-10-31)
+	-	Updated Growl code to work with Growl 1.3 (App Store version)
+	-	Updated tell syntax to call "first document window", not "front document window"
+	
+	0.4 (2011-08-30)
+	-	Rewrote notification code to gracefully handle situations where Growl is not installed
+	-	Changed "The item/The items" to "It/They"
+	
+	0.3 (2011-07-07)
+	-	New option to set start time (default: 8am)
+	-	Reorganized; incorporated Rob Trew's method to get items from OmniFocus
+	-	No longer fails when a Grouping divider is selected
+	-	Fixes potential issue when launching from OmniFocus toolbar
+	
+	0.2c (2010-06-22)
+	-	Actual fix for autosave
+	
+	0.2b (2010-06-21)
+	-	Encapsulated autosave in "try" statements in case this fails
+	
+	0.2 (2010-06-15)
+	-	Fixed Growl code
+	-	Added performance optimization (thanks, Curt Clifton)
+	-	Changed from LGPL to MIT license (MIT is less restrictive)
+		
+	0.1: Original release. (Thanks to Curt Clifton, Nanovivid, and Macfaninpdx for various pieces of code)
+
+	
+	# INSTALLATION #
+	
+	-	Copy to ~/Library/Scripts/Applications/Omnifocus
+ 	-	If desired, add to the OmniFocus toolbar using View &gt; Customize Toolbar... within OmniFocus
+
+	
+	# KNOWN ISSUES #
+	-	When the script is invoked from the OmniFocus toolbar and canceled, OmniFocus displays an alert.
+		This does not occur when invoked from another launcher (script menu, FastScripts LaunchBar, etc).
+		
+*)-- To change settings, modify the following propertiesproperty showSummaryNotification : true --if true, will display success notificationsproperty defaultOffset : 1 --number of days to snooze by defaultproperty defaultStartTime : 8 --default time to use (in hours, 24-hr clock)-- Don't change theseproperty alertItemNum : ""property alertItemPronoun : "It"property alertDayNum : ""property growlAppName : "Dan's Scripts"property allNotifications : {"General", "Error"}property enabledNotifications : {"General", "Error"}property iconApplication : "OmniFocus.app"on main()	tell application "OmniFocus"		tell content of first document window of front document			--Get selection			set validSelectedItemsList to value of (selected trees where class of its value is not item and class of its value is not folder)			set totalItems to count of validSelectedItemsList			if totalItems is 0 then				set alertName to "Error"				set alertTitle to "Script failure"				set alertText to "No valid task(s) selected"				my notify(alertName, alertTitle, alertText)				return			end if						--User options			display dialog "Snooze for how many days (from today)?" default answer defaultOffset buttons {"Cancel", "OK"} default button 2			set daysOffset to (the text returned of the result) as integer						--Perform action			set todayStart to (current date) - (get time of (current date)) + (defaultStartTime * 3600)			set successTot to 0			set autosave to false			repeat with thisItem in validSelectedItemsList				set succeeded to my snooze(thisItem, todayStart, daysOffset)				if succeeded then set successTot to successTot + 1			end repeat			set autosave to true		end tell	end tell		--Display summary notification	if showSummaryNotification then		set alertName to "General"		set alertTitle to "Script complete"		if daysOffset is not 1 then set alertDayNum to "s"		if successTot &gt; 1 then			set alertItemPronoun to "They"			set alertItemNum to "s"		end if		set alertText to successTot &amp; " item" &amp; alertItemNum &amp; " snoozed. " &amp; alertItemPronoun &amp; " will become available in " &amp; daysOffset &amp; " day" &amp; alertDayNum &amp; "." as string		my notify(alertName, alertTitle, alertText)	end ifend mainon snooze(selectedItem, todayStart, daysOffset)	set success to false	tell application "OmniFocus"		try			set start date of selectedItem to my offsetDateByDays(todayStart, daysOffset)			set success to true		end try	end tell	return successend snoozeon offsetDateByDays(myDate, daysOffset)	return myDate + (86400 * daysOffset)end offsetDateByDays(* Begin notification code *)on notify(alertName, alertTitle, alertText)	--Call this to show a normal notification	my notifyMain(alertName, alertTitle, alertText, false)end notifyon notifyWithSticky(alertName, alertTitle, alertText)	--Show a sticky Growl notification	my notifyMain(alertName, alertTitle, alertText, true)end notifyWithStickyon IsGrowlRunning()	tell application "System Events" to set GrowlRunning to (count of (every process where creator type is "GRRR")) &gt; 0	return GrowlRunningend IsGrowlRunningon dictToString(dict) --needed to encapsulate dictionaries in osascript	set dictString to "{"	repeat with i in dict		if (length of dictString &gt; 1) then set dictString to dictString &amp; ", "		set dictString to dictString &amp; "\"" &amp; i &amp; "\""	end repeat	set dictString to dictString &amp; "}"	return dictStringend dictToStringon notifyWithGrowl(growlHelperAppName, alertName, alertTitle, alertText, useSticky)	tell my application growlHelperAppName		«event register» given «class appl»:growlAppName, «class anot»:allNotifications, «class dnot»:enabledNotifications, «class iapp»:iconApplication		«event notifygr» given «class name»:alertName, «class titl»:alertTitle, «class appl»:growlAppName, «class desc»:alertText	end tellend notifyWithGrowlon NotifyWithoutGrowl(alertText)	tell application "OmniFocus" to display dialog alertText with icon 1 buttons {"OK"} default button "OK"end NotifyWithoutGrowlon notifyMain(alertName, alertTitle, alertText, useSticky)	set GrowlRunning to my IsGrowlRunning() --check if Growl is running...	if not GrowlRunning then --if Growl isn't running...		set GrowlPath to "" --check to see if Growl is installed...		try			tell application "Finder" to tell (application file id "GRRR") to set strGrowlPath to POSIX path of (its container as alias) &amp; name		end try		if GrowlPath is not "" then --...try to launch if so...			do shell script "open " &amp; strGrowlPath &amp; " &gt; /dev/null 2&gt;&amp;1 &amp;"			delay 0.5			set GrowlRunning to my IsGrowlRunning()		end if	end if	if GrowlRunning then		tell application "Finder" to tell (application file id "GRRR") to set growlHelperAppName to name		notifyWithGrowl(growlHelperAppName, alertName, alertTitle, alertText, useSticky)	else		NotifyWithoutGrowl(alertText)	end ifend notifyMain(* end notification code *)main()</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>05)Snooze [S]</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>1</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>875E8094-F9E9-4F8E-BE6E-48583A7AC365</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>4096</integer>
+		<key>Name</key>
+		<string> :: OmniFocus Script Palette</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.omnigroup.OmniFocus</string>
+					<key>Creator</key>
+					<integer>1330007875</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>OmniFocus</string>
+					<key>NewFile</key>
+					<string>/Applications/OmniFocus.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>EEEDF61C-7E84-411D-8B06-3BA5E4C3E326</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>50</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>(*
+	# DESCRIPTION #
+	
+	This script takes the currently selected actions or projects and offsets their dates by the
+	user-specified number of days. The user may defer just the due date or both the start and
+	due dates (useful for skipping weekends for daily recurring tasks).
+	
+	
+	# LICENSE #
+
+	Copyright © 2008-2011 Dan Byler (contact: dbyler@gmail.com)
+	Licensed under MIT License (http://www.opensource.org/licenses/mit-license.php)
+	(TL;DR: no warranty, do whatever you want with it.)
+
+	
+	# CHANGE HISTORY#
+	
+	0.7 (2011-10-31)
+	-	Now has "Start Only" mode that only modifies start dates. To use, set promptForChangeScope to false
+		and changeScope to "Start Only"
+	-	Updated Growl code to work with Growl 1.3 (App Store version)
+	-	Updated tell syntax to call "first document window", not "front document window"
+	
+	0.6 (2011-08-30)
+	-	Rewrote notification code to gracefully handle situations where Growl is not installed
+	-	Changed default promptForChangeScope to False
+	
+	0.5 (2011-07-14)
+	-	Now warns for mismatches between "actual" and "effective" Start and Due dates. Such mismatches 
+		occur if a parent or ancestor item has an earlier Due date (or later Start date) than the selected item.
+		This warning can be suppressed by setting "warnOnDateMismatch" property to "false".
+
+	-	New "promptForChangeScope" setting lets users bypass the second dialog box if they always change
+		the same parameters (Start AND Due dates, or just Due dates). Default setting: enabled.
+	
+	0.4 (2011-07-07)
+	-	New option to set start time (Default: 8am)
+	-	New snoozeUnscheduledItems option (default: True) lets you push the start date of unscheduled items.
+	-	No longer fails when a Grouping divider is selected
+	-	Reorganized; incorporated Rob Trew's method to get items from OmniFocus
+	-	Fixes potential issue when launching from OmniFocus toolbar
+	
+	0.3c (2010-06-21)
+		-	Actual fix for autosave
+	
+	0.3b (2010-06-21)
+		-	Encapsulated autosave in "try" statements in case this fails
+	
+	0.3 (2010-06-15)
+		-	Incorporated another improvement from Curt Clifton to increase performance
+		-	Reinstated original Growl code since the Growl-agnostic code broke in Snow Leopard
+	
+	0.2
+		-	Incorporated Curt Clifton's bug fixes to make script more reliable when dealing with multiple items.
+			Thanks, Curt!
+		-	Added some error suppression to deal with deferring from Context mode
+		-	Defers both start and due dates by default.
+		-	Incorporates new method that doesn't call Growl directly. This code should be friendly for machines
+			that don't have Growl installed. In my testing, I found that GrowlHelperApp crashes on nearly 10%
+			of AppleScript calls, so the script checks for GrowlHelperApp and launches it if not running. (Thanks 
+			to Nanovivid from forums.cocoaforge.com/viewtopic.php?p=32584 and Macfaninpdx from 
+			forums.macrumors.com/showthread.php?t=423718 for the information needed to get this working
+		-	All that said... if you run from the toolbar frequently, I'd recommend  turning alerts off since Growl 
+			slows down the script so much
+		
+	0.1: Original release
+
+
+	# INSTALLATION #
+
+	-	Copy to ~/Library/Scripts/Applications/Omnifocus
+ 	-	If desired, add to the OmniFocus toolbar using View &gt; Customize Toolbar... within OmniFocus
+
+
+	# KNOWN ISSUES #
+	-	When the script is invoked from the OmniFocus toolbar and canceled, OmniFocus displays an alert.
+		This does not occur when invoked from another launcher (script menu, FastScripts LaunchBar, etc).
+
+*)-- To change settings, modify the following propertiesproperty snoozeUnscheduledItems : true --if True, when deferring Start AND Due dates, will set start date to given # of days in the futureproperty showSummaryNotification : true --if true, will display success notificationsproperty useGrowl : true --if true, will use Growl for success/failure alertsproperty defaultOffset : 1 --number of days to defer by defaultproperty defaultStartTime : 8 --default time to use (in hours, 24-hr clock)property warnOnDateMismatch : true --if True, warns you if there's a mismatch between a deferred item's actual and effective Due date. An effective due date is set by a parent task or project.--If you always want to change the same type of information--(Start AND Due dates) OR (Just Due dates)--change promptForChangeScope to falseproperty promptForChangeScope : falseproperty changeScope : "Start and Due" --options: "Start and Due", "Due Only", "Start Only"-- Don't change theseproperty alertItemNum : ""property alertDayNum : ""property growlAppName : "Dan's Scripts"property allNotifications : {"General", "Error"}property enabledNotifications : {"General", "Error"}property iconApplication : "OmniFocus.app"on main()	tell application "OmniFocus"		tell content of first document window of front document			--Get selection			set validSelectedItemsList to value of (selected trees where class of its value is not item and class of its value is not folder)			set totalItems to count of validSelectedItemsList			if totalItems is 0 then				set alertName to "Error"				set alertTitle to "Script failure"				set alertText to "No valid task(s) selected"				my notify(alertName, alertTitle, alertText)				return			end if						--User options			display dialog "Defer for how many days (from existing)?" default answer defaultOffset buttons {"Cancel", "OK"} default button 2			set daysOffset to (the text returned of the result) as integer			if promptForChangeScope then				set changeScopeQuery to display dialog "Modify start and due dates?" buttons {"Cancel", "Due Only", "Start and Due"} ¬					default button 3 with icon caution giving up after 60				set changeScope to button returned of changeScopeQuery				if changeScope is "Cancel" then return			end if			if changeScope is "Start and Due" then				set modifyStartDate to true				set modifyDueDate to true			else if changeScope is "Due Only" then				set modifyStartDate to false				set modifyDueDate to true			else if changeScope is "Start Only" then				set modifyStartDate to true				set modifyDueDate to false			end if						--Perform action			set successTot to 0			set autosave to false			set todayStart to (current date) - (get time of (current date)) + (defaultStartTime * 3600)			repeat with thisItem in validSelectedItemsList				set succeeded to my defer(thisItem, daysOffset, modifyStartDate, modifyDueDate, todayStart)				if succeeded then set successTot to successTot + 1			end repeat			set autosave to true		end tell	end tell		--Display summary notification	if showSummaryNotification then		set alertName to "General"		set alertTitle to "Script complete"		if daysOffset is not 1 then set alertDayNum to "s"		if successTot &gt; 1 then set alertItemNum to "s"		set alertText to successTot &amp; " item" &amp; alertItemNum &amp; " deferred " &amp; daysOffset &amp; " day" &amp; alertDayNum &amp; ". (" &amp; changeScope &amp; ")" as string		my notify(alertName, alertTitle, alertText)	end ifend mainon defer(selectedItem, daysOffset, modifyStartDate, modifyDueDate, todayStart)	set success to false	tell application "OmniFocus"		try			set realStartDate to start date of selectedItem			set {startAncestor, effectiveStartDate} to my getEffectiveStartDate(selectedItem, start date of selectedItem)			set realDueDate to due date of selectedItem			set {dueAncestor, effectiveDueDate} to my getEffectiveDueDate(selectedItem, due date of selectedItem)			if modifyStartDate then				if (realStartDate is not missing value) then --There's a preexisting start date					set start date of selectedItem to my offsetDateByDays(realStartDate, daysOffset)					if warnOnDateMismatch then						if realStartDate is not effectiveStartDate then							set alertText to "«" &amp; (name of contents of selectedItem) &amp; ¬								"» has a later effective start date inherited from «" &amp; (name of contents of dueAncestor) &amp; ¬								"». The latter has not been changed."							my notifyWithSticky("Error", "Possible Start Date Mismatch", alertText)						end if					end if				end if			end if			if (realDueDate is not missing value) then --There's a preexisting due date				if modifyDueDate then					set due date of selectedItem to my offsetDateByDays(realDueDate, daysOffset)				end if				if realDueDate is not effectiveDueDate then --alert if there's a different effective date					--				contents of selectedItem					if modifyDueDate and warnOnDateMismatch then						set alertText to "«" &amp; (name of contents of selectedItem) &amp; ¬							"» has an earlier effective due date inherited from «" &amp; (name of contents of dueAncestor) &amp; ¬							"». The latter has not been changed."						my notifyWithSticky("Error", "Possible Due Date Mismatch", alertText)					end if				end if			else if snoozeUnscheduledItems then				if start date of selectedItem is missing value then					set test to my offsetDateByDays(todayStart, daysOffset)					set start date of selectedItem to my offsetDateByDays(todayStart, daysOffset)				end if			end if			set success to true		end try	end tell	return successend deferon getEffectiveDueDate(thisItem, effectiveDueDate)	tell application "OmniFocus"		if due date of thisItem is not missing value then			if effectiveDueDate is missing value then				set effectiveDueDate to due date of thisItem			else if due date of thisItem is less than effectiveDueDate then				set effectiveDueDate to due date of thisItem			end if		end if		if parent task of thisItem is missing value then			return {thisItem, effectiveDueDate}		else			return my getEffectiveDueDate(parent task of thisItem, effectiveDueDate)		end if	end tell	return {dueAncestor, effectiveDueDate}end getEffectiveDueDateon getEffectiveStartDate(thisItem, effectiveStartDate)	tell application "OmniFocus"		if start date of thisItem is not missing value then			if effectiveStartDate is missing value then				set effectiveStartDate to start date of thisItem			else if start date of thisItem is greater than effectiveStartDate then				set effectiveStartDate to start date of thisItem			end if		end if		if parent task of thisItem is missing value then			return {thisItem, effectiveStartDate}		else			return my getEffectiveStartDate(parent task of thisItem, effectiveStartDate)		end if	end tell	return {startAncestor, effectiveStartDate}end getEffectiveStartDateon offsetDateByDays(myDate, daysOffset)	return myDate + (86400 * daysOffset)end offsetDateByDays(* Begin notification code *)on notify(alertName, alertTitle, alertText)	--Call this to show a normal notification	my notifyMain(alertName, alertTitle, alertText, false)end notifyon notifyWithSticky(alertName, alertTitle, alertText)	--Show a sticky Growl notification	my notifyMain(alertName, alertTitle, alertText, true)end notifyWithStickyon IsGrowlRunning()	tell application "System Events" to set GrowlRunning to (count of (every process where creator type is "GRRR")) &gt; 0	return GrowlRunningend IsGrowlRunningon dictToString(dict) --needed to encapsulate dictionaries in osascript	set dictString to "{"	repeat with i in dict		if (length of dictString &gt; 1) then set dictString to dictString &amp; ", "		set dictString to dictString &amp; "\"" &amp; i &amp; "\""	end repeat	set dictString to dictString &amp; "}"	return dictStringend dictToStringon notifyWithGrowl(growlHelperAppName, alertName, alertTitle, alertText, useSticky)	tell my application growlHelperAppName		«event register» given «class appl»:growlAppName, «class anot»:allNotifications, «class dnot»:enabledNotifications, «class iapp»:iconApplication		«event notifygr» given «class name»:alertName, «class titl»:alertTitle, «class appl»:growlAppName, «class desc»:alertText	end tellend notifyWithGrowlon NotifyWithoutGrowl(alertText)	tell application "OmniFocus" to display dialog alertText with icon 1 buttons {"OK"} default button "OK"end NotifyWithoutGrowlon notifyMain(alertName, alertTitle, alertText, useSticky)	set GrowlRunning to my IsGrowlRunning() --check if Growl is running...	if not GrowlRunning then --if Growl isn't running...		set GrowlPath to "" --check to see if Growl is installed...		try			tell application "Finder" to tell (application file id "GRRR") to set strGrowlPath to POSIX path of (its container as alias) &amp; name		end try		if GrowlPath is not "" then --...try to launch if so...			do shell script "open " &amp; strGrowlPath &amp; " &gt; /dev/null 2&gt;&amp;1 &amp;"			delay 0.5			set GrowlRunning to my IsGrowlRunning()		end if	end if	if useGrowl and GrowlRunning then		tell application "Finder" to tell (application file id "GRRR") to set growlHelperAppName to name		notifyWithGrowl(growlHelperAppName, alertName, alertTitle, alertText, useSticky)	else		NotifyWithoutGrowl(alertText)	end ifend notifyMain(* end notification code *)main()</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>06)Defer [D]</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>2</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>EAD0752E-62D0-4BF2-9512-EC35420345A5</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>4096</integer>
+		<key>Name</key>
+		<string> :: OmniFocus Script Palette</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.omnigroup.OmniFocus</string>
+					<key>Creator</key>
+					<integer>1330007875</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>OmniFocus</string>
+					<key>NewFile</key>
+					<string>/Applications/OmniFocus.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>EEEDF61C-7E84-411D-8B06-3BA5E4C3E326</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>50</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>(*
+	# DESCRIPTION #
+
+	This script takes the currently selected actions or projects and sets them for action today.
+
+	**IMPORTANT: Now has two modes: "Start" mode and "Due" mode. Start mode is for people
+	who use start dates to plan for the day; Due mode is for people who use Due dates for the same.
+	It is now my opinion that Start dates are more useful for day-to-day planning, but this script is 
+	intended to provide flexibility in whatever system you use.
+	
+	By default, this script will now set start dates, but you can change this in the settings below.**
+	
+	
+	## START MODE LOGIC ##
+	For each item:
+	-	If there's no existing start date: sets Start Date to today (at time specified in script settings)
+	-	If there's an existing start date: sets Start Date to today (at time of original date)
+	
+	## DUE MODE LOGIC ##
+	For each item:
+	-	If there's no original due date: sets Due to today at the time listed in the script's settings
+		and ignores start date
+	-	If there's an original due date: sets Due to today at the *original* due time
+	-	If there's an original due date AND start date: sets Due to today at *original* due time
+		AND advances Start Date by same # of days as due date
+		(this is to respect parameters of repeating actions)
+	
+	
+	# LICENSE #
+	
+	Copyright © 2011 Dan Byler (contact: dbyler@gmail.com)
+	Licensed under MIT License (http://www.opensource.org/licenses/mit-license.php) 
+	(TL;DR: do whatever you want with it.)
+	
+
+	# CHANGE HISTORY #
+
+	0.41 (2011-10-31)
+	-	Updated Growl code to work with Growl 1.3 (App Store version)
+	-	Updated tell syntax to call "first document window", not "front document window"
+
+	0.4 (2011-08-30)
+	-	Rewrote notification code to gracefully handle situations where Growl is not installed
+	
+	0.3 (2011-07-07):
+	-	New setting: "Start" or "Due" modes (see above)
+	-	No longer fails when a Grouping divider is selected
+	-	Streamlined calls to OmniFocus with Rob Trew's input (Thanks, Rob!)
+	-	Reorganized script for better readability
+
+	0.2c (2010-06-22)
+	-	Actual fix for autosave
+
+	0.2b (2010-06-21)
+	-	Encapsulated autosave in "try" statements in case this fails
+
+	0.2 (2010-06-15)
+	-	Added performance optimization (thanks to Curt Clifton)
+	-	Fixed Growl code (broke with Snow Leopard)
+	-	Switched to MIT license (simpler, less restrictive)
+
+	0.1: Initial release. Based on my Defer script, which incorporates bug fixes from Curt Clifton. Also uses method that doesn't call Growl directly. This code should be friendly for machines that don't have Growl installed. In my testing, I found that GrowlHelperApp crashes on nearly 10% of AppleScript calls, so the script checks for GrowlHelperApp and launches it if not running. (Thanks to Nanovivid from forums.cocoaforge.com/viewtopic.php?p=32584 and Macfaninpdx from forums.macrumors.com/showthread.php?t=423718 for the information needed to get this working
+
+	# INSTALLATION #
+
+	-	Copy to ~/Library/Scripts/Applications/Omnifocus
+ 	-	If desired, add to the OmniFocus toolbar using View &gt; Customize Toolbar... within OmniFocus
+
+	# KNOWN BUGS #
+	- When the script is invoked from the OmniFocus toolbar and canceled, OmniFocus returns an error. This issue does not occur when invoked from the script menu, a Quicksilver trigger, etc.
+		
+*)
+
+-- To change settings, modify the following properties
+
+--The following setting changes script mode. Options: "start" or "due" (quotes needed)
+property mode : "start"
+
+property showSummaryNotification : false --if true, will display success notifications
+property useGrowl : true --if true, will use Growl for success/failure alerts
+property startTime : 6 --Start hour for items not previously assigned a start time (24 hr clock)
+property dueTime : 17 --Due hour for items not previously assigned a due time (24 hr clock)
+
+-- Don't change these
+property alertItemNum : ""
+property alertDayNum : ""
+property growlAppName : "Dan's Scripts"
+property allNotifications : {"General", "Error"}
+property enabledNotifications : {"General", "Error"}
+property iconApplication : "OmniFocus.app"
+
+on main()
+	tell application "OmniFocus"
+		tell content of first document window of front document
+			--Get selection
+			set totalMinutes to 0
+			set validSelectedItemsList to value of (selected trees where class of its value is not item and class of its value is not folder)
+			set totalItems to count of validSelectedItemsList
+			if totalItems is 0 then
+				set alertName to "Error"
+				set alertTitle to "Script failure"
+				set alertText to "No valid task(s) selected"
+				my notify(alertName, alertTitle, alertText)
+				return
+			end if
+			
+			--Perform action
+			set successTot to 0
+			set autosave to false
+			set currDate to (current date) - (time of (current date))
+			if mode is "start" then
+				repeat with thisItem in validSelectedItemsList
+					set succeeded to my startToday(thisItem, currDate)
+					if succeeded then set successTot to successTot + 1
+				end repeat
+			else if mode is "due" then
+				repeat with thisItem in validSelectedItemsList
+					set succeeded to my dueToday(thisItem, currDate)
+					if succeeded then set successTot to successTot + 1
+				end repeat
+			else
+				set alertName to "Error"
+				set alertTitle to "Script failure"
+				set alertText to "Improper mode setting"
+				my notify(alertName, alertTitle, alertText)
+			end if
+			set autosave to true
+		end tell
+	end tell
+	
+	--Display summary notification
+	if showSummaryNotification then
+		set alertName to "General"
+		set alertTitle to "Script complete"
+		if successTot &gt; 1 then set alertItemNum to "s"
+		set alertText to successTot &amp; " item" &amp; alertItemNum &amp; " now due today." as string
+		my notify(alertName, alertTitle, alertText)
+	end if
+end main
+
+on startToday(selectedItem, currDate)
+	set success to false
+	tell application "OmniFocus"
+		try
+			set originalStartDateTime to start date of selectedItem
+			if (originalStartDateTime is not missing value) then
+				--Set new start date with original start time
+				set start date of selectedItem to (currDate + (time of originalStartDateTime))
+				set success to true
+			else
+				set start date of selectedItem to (currDate + (startTime * hours))
+				set success to true
+			end if
+		end try
+	end tell
+	return success
+end startToday
+
+on dueToday(selectedItem, currDate)
+	set success to false
+	tell application "OmniFocus"
+		try
+			set originalDueDateTime to due date of selectedItem
+			if (originalDueDateTime is not missing value) then
+				--Set new due date with original due time
+				set originalDueStartDate to originalDueDateTime - (time of originalDueDateTime)
+				set theDelta to (currDate - originalDueStartDate) / 86400
+				set newDueDateTime to (originalDueDateTime + (theDelta * days))
+				set due date of selectedItem to newDueDateTime
+				set originalStartDateTime to start date of selectedItem
+				if (originalStartDateTime is not missing value) then
+					set newStartDateTime to (originalStartDateTime + (theDelta * days))
+					set start date of selectedItem to newStartDateTime
+				end if
+				set success to true
+			else
+				set due date of selectedItem to (currDate + (dueTime * hours))
+				set success to true
+			end if
+		end try
+	end tell
+	return success
+end dueToday
+
+(* Begin notification code *)
+on notify(alertName, alertTitle, alertText)
+	--Call this to show a normal notification
+	my notifyMain(alertName, alertTitle, alertText, false)
+end notify
+
+on notifyWithSticky(alertName, alertTitle, alertText)
+	--Show a sticky Growl notification
+	my notifyMain(alertName, alertTitle, alertText, true)
+end notifyWithSticky
+
+on IsGrowlRunning()
+	tell application "System Events" to set GrowlRunning to (count of (every process where creator type is "GRRR")) &gt; 0
+	return GrowlRunning
+end IsGrowlRunning
+
+on dictToString(dict) --needed to encapsulate dictionaries in osascript
+	set dictString to "{"
+	repeat with i in dict
+		if (length of dictString &gt; 1) then set dictString to dictString &amp; ", "
+		set dictString to dictString &amp; "\"" &amp; i &amp; "\""
+	end repeat
+	set dictString to dictString &amp; "}"
+	return dictString
+end dictToString
+
+on notifyWithGrowl(growlHelperAppName, alertName, alertTitle, alertText, useSticky)
+	tell my application growlHelperAppName
+		«event register» given «class appl»:growlAppName, «class anot»:allNotifications, «class dnot»:enabledNotifications, «class iapp»:iconApplication
+		«event notifygr» given «class name»:alertName, «class titl»:alertTitle, «class appl»:growlAppName, «class desc»:alertText
+	end tell
+end notifyWithGrowl
+
+on NotifyWithoutGrowl(alertText)
+	tell application "OmniFocus" to display dialog alertText with icon 1 buttons {"OK"} default button "OK"
+end NotifyWithoutGrowl
+
+on notifyMain(alertName, alertTitle, alertText, useSticky)
+	set GrowlRunning to my IsGrowlRunning() --check if Growl is running...
+	if not GrowlRunning then --if Growl isn't running...
+		set GrowlPath to "" --check to see if Growl is installed...
+		try
+			tell application "Finder" to tell (application file id "GRRR") to set strGrowlPath to POSIX path of (its container as alias) &amp; name
+		end try
+		if GrowlPath is not "" then --...try to launch if so...
+			do shell script "open " &amp; strGrowlPath &amp; " &gt; /dev/null 2&gt;&amp;1 &amp;"
+			delay 0.5
+			set GrowlRunning to my IsGrowlRunning()
+		end if
+	end if
+	if GrowlRunning then
+		tell application "Finder" to tell (application file id "GRRR") to set growlHelperAppName to name
+		notifyWithGrowl(growlHelperAppName, alertName, alertTitle, alertText, useSticky)
+	else
+		NotifyWithoutGrowl(alertText)
+	end if
+end notifyMain
+(* end notification code *)
+
+
+main()</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>07)Today [N]</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>45</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>82</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>29</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>8B981EC9-55D1-4ADC-BC18-9621062FE75B</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>4096</integer>
+		<key>Name</key>
+		<string> :: OmniFocus Script Palette</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.omnigroup.OmniFocus</string>
+					<key>Creator</key>
+					<integer>1330007875</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>OmniFocus</string>
+					<key>NewFile</key>
+					<string>/Applications/OmniFocus.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>EEEDF61C-7E84-411D-8B06-3BA5E4C3E326</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>50</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>(*
+	# DESCRIPTION #
+
+	This script takes the currently selected actions or projects and sets them for action tomorrow.
+	
+	**IMPORTANT: Now has two modes: "Start" mode and "Due" mode. Start mode is for people
+	who use start dates to plan for the day; Due mode is for people who use Due dates for the same.
+	It is now my opinion that Start dates are more useful for day-to-day planning, but this script is 
+	intended to provide flexibility in whatever system you use.
+	
+	By default, this script will now set start dates, but you can change this in the settings below.**
+
+	## START MODE LOGIC ##
+	For each item:
+		- If no original due date, sets due to tomorrow at the set time
+
+	## DUE MODE LOGIC ##
+	For each item:
+	-	If there's no existing due date: sets Due to tomorrow (at time specified in script settings)
+	-	If there's an existing due date: sets Due to tomorrow at the *original* due time
+	-	If there's an existing due date AND start date: advances start date by same # of days as due 
+		date (this is to respect parameters of repeating actions)
+	-	Ignores start date if there's no due date already assigned to a task
+	
+	
+	# LICENSE #
+	
+	Copyright © 2009-2010 Dan Byler (contact: dbyler@gmail.com)
+	Licensed under MIT License (http://www.opensource.org/licenses/mit-license.php)
+	
+
+	# CHANGE HISTORY #
+
+	0.41 (2011-10-31)
+	-	Updated Growl code to work with Growl 1.3 (App Store version)
+	-	Updated tell syntax to call "first document window", not "front document window"
+
+	0.4 (2011-08-30)
+	-	Rewrote notification code to gracefully handle situations where Growl is not installed
+	
+	0.3 (2011-07-07):
+	-	New setting: "Start" or "Due" modes (see above)
+	-	No longer fails when a Grouping divider is selected
+	-	Streamlined calls to OmniFocus with Rob Trew's input (Thanks, Rob!)
+	-	Reorganized script for better readability
+
+	0.2c (2010-06-22)
+	-	Actual fix for autosave
+
+	0.2b (2010-06-21)
+	-	Encapsulated autosave in "try" statements in case this fails
+
+	0.2 (2010-06-15)
+	-	Added performance optimization (thanks to Curt Clifton)
+	-	Fixed Growl code (broke with Snow Leopard)
+	-	Switched to MIT license (simpler, less restrictive)
+
+	0.1: Initial release. Based on my Defer script, which incorporates bug fixes from Curt Clifton. Also uses method that doesn't call Growl directly. This code should be friendly for machines that don't have Growl installed. In my testing, I found that GrowlHelperApp crashes on nearly 10% of AppleScript calls, so the script checks for GrowlHelperApp and launches it if not running. (Thanks to Nanovivid from forums.cocoaforge.com/viewtopic.php?p=32584 and Macfaninpdx from forums.macrumors.com/showthread.php?t=423718 for the information needed to get this working
+
+	# INSTALLATION #
+
+	-	Copy to ~/Library/Scripts/Applications/Omnifocus
+ 	-	If desired, add to the OmniFocus toolbar using View &gt; Customize Toolbar... within OmniFocus
+
+	# KNOWN BUGS #
+	-	When the script is invoked from the OmniFocus toolbar and canceled, OmniFocus returns an error. This issue does not occur when invoked from the script menu, a Quicksilver trigger, etc.
+		
+*)--The following setting changes script mode. Options: "start" or "due" (quotes needed)property mode : "start"property showSummaryNotification : true --if true, will display success notificationsproperty useGrowl : true --if true, will use Growl for success/failure alertsproperty startTime : 6 --Start hour for items not previously assigned a start time (24 hr clock)property dueTime : 17 --Due hour for items not previously assigned a due time (24 hr clock)-- Don't change theseproperty alertItemNum : ""property alertDayNum : ""property growlAppName : "Dan's Scripts"property allNotifications : {"General", "Error"}property enabledNotifications : {"General", "Error"}property iconApplication : "OmniFocus.app"on main()	tell application "OmniFocus"		tell content of first document window of front document			--Get selection			set totalMinutes to 0			set validSelectedItemsList to value of (selected trees where class of its value is not item and class of its value is not folder)			set totalItems to count of validSelectedItemsList			if totalItems is 0 then				set alertName to "Error"				set alertTitle to "Script failure"				set alertText to "No valid task(s) selected"				my notify(alertName, alertTitle, alertText)				return			end if						--Perform action			set successTot to 0			set autosave to false			set newDate to (current date) - (time of (current date)) + 86400			if mode is "start" then				repeat with thisItem in validSelectedItemsList					set succeeded to my startTomorrow(thisItem, newDate)					if succeeded then set successTot to successTot + 1				end repeat			else if mode is "due" then				repeat with thisItem in validSelectedItemsList					set succeeded to my dueTomorrow(thisItem, newDate)					if succeeded then set successTot to successTot + 1				end repeat			else				set alertName to "Error"				set alertTitle to "Script failure"				set alertText to "Improper mode setting"				my notify(alertName, alertTitle, alertText)			end if			set autosave to true		end tell	end tell		--Display summary notification	if showSummaryNotification then		set alertName to "General"		set alertTitle to "Script complete"		if successTot &gt; 1 then set alertItemNum to "s"		set alertText to successTot &amp; " item" &amp; alertItemNum &amp; " now due tomorrow." as string		my notify(alertName, alertTitle, alertText)	end ifend mainon startTomorrow(selectedItem, newDate)	set success to false	tell application "OmniFocus"		try			set originalStartDateTime to start date of selectedItem			if (originalStartDateTime is not missing value) then				--Set new start date with original start time				set start date of selectedItem to (newDate + (time of originalStartDateTime))				set success to true			else				set start date of selectedItem to (newDate + (startTime * hours))				set success to true			end if		end try	end tell	return successend startTomorrowon dueTomorrow(selectedItem, newDate)	set success to false	tell application "OmniFocus"		try			set originalDueDateTime to due date of selectedItem			if (originalDueDateTime is not missing value) then				--Set new due date with original due time				set originalDueStartDate to originalDueDateTime - (time of originalDueDateTime)				set theDelta to (newDate - originalDueStartDate) / 86400				set newDueDateTime to (originalDueDateTime + (theDelta * days))				set due date of selectedItem to newDueDateTime				set originalStartDateTime to start date of selectedItem				if (originalStartDateTime is not missing value) then					set newStartDateTime to (originalStartDateTime + (theDelta * days))					set start date of selectedItem to newStartDateTime				end if				set success to true			else				set due date of selectedItem to (newDate + (dueTime * hours))				set success to true			end if		end try	end tell	return successend dueTomorrow(* Begin notification code *)on notify(alertName, alertTitle, alertText)	--Call this to show a normal notification	my notifyMain(alertName, alertTitle, alertText, false)end notifyon notifyWithSticky(alertName, alertTitle, alertText)	--Show a sticky Growl notification	my notifyMain(alertName, alertTitle, alertText, true)end notifyWithStickyon IsGrowlRunning()	tell application "System Events" to set GrowlRunning to (count of (every process where creator type is "GRRR")) &gt; 0	return GrowlRunningend IsGrowlRunningon dictToString(dict) --needed to encapsulate dictionaries in osascript	set dictString to "{"	repeat with i in dict		if (length of dictString &gt; 1) then set dictString to dictString &amp; ", "		set dictString to dictString &amp; "\"" &amp; i &amp; "\""	end repeat	set dictString to dictString &amp; "}"	return dictStringend dictToStringon notifyWithGrowl(growlHelperAppName, alertName, alertTitle, alertText, useSticky)	tell my application growlHelperAppName		«event register» given «class appl»:growlAppName, «class anot»:allNotifications, «class dnot»:enabledNotifications, «class iapp»:iconApplication		«event notifygr» given «class name»:alertName, «class titl»:alertTitle, «class appl»:growlAppName, «class desc»:alertText	end tellend notifyWithGrowlon NotifyWithoutGrowl(alertText)	tell application "OmniFocus" to display dialog alertText with icon 1 buttons {"OK"} default button "OK"end NotifyWithoutGrowlon notifyMain(alertName, alertTitle, alertText, useSticky)	set GrowlRunning to my IsGrowlRunning() --check if Growl is running...	if not GrowlRunning then --if Growl isn't running...		set GrowlPath to "" --check to see if Growl is installed...		try			tell application "Finder" to tell (application file id "GRRR") to set strGrowlPath to POSIX path of (its container as alias) &amp; name		end try		if GrowlPath is not "" then --...try to launch if so...			do shell script "open " &amp; strGrowlPath &amp; " &gt; /dev/null 2&gt;&amp;1 &amp;"			delay 0.5			set GrowlRunning to my IsGrowlRunning()		end if	end if	if GrowlRunning then		tell application "Finder" to tell (application file id "GRRR") to set growlHelperAppName to name		notifyWithGrowl(growlHelperAppName, alertName, alertTitle, alertText, useSticky)	else		NotifyWithoutGrowl(alertText)	end ifend notifyMain(* end notification code *)main()</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>08)Tomorrow [T]</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>17</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>18</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>83</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>C47BCA33-95DE-45C7-81E4-26810BBEE40B</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>4096</integer>
+		<key>Name</key>
+		<string> :: OmniFocus Script Palette</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.omnigroup.OmniFocus</string>
+					<key>Creator</key>
+					<integer>1330007875</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>OmniFocus</string>
+					<key>NewFile</key>
+					<string>/Applications/OmniFocus.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>EEEDF61C-7E84-411D-8B06-3BA5E4C3E326</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>50</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>(*
+	# DESCRIPTION #
+	
+	This script takes the currently selected actions or projects and sets them for action this weekend.
+	(If a weekend is currently in progress, the items will be set for the *current* weekend.)
+	
+	**IMPORTANT: The script will now always set a start date. Whether it sets a due date is up to you.
+	Change this setting with the setDueDate property below.**
+	
+	The dates and times are set by variables, so you can modify to meet your weekend.
+	
+	# LICENSE #
+
+	Copyright © 2010 Dan Byler (contact: dbyler@gmail.com)
+	Licensed under MIT License (http://www.opensource.org/licenses/mit-license.php)
+	
+
+	# CHANGE HISTORY #
+	
+	0.31 (2011-10-31)
+	-	Updated Growl code to work with Growl 1.3 (App Store version)
+	-	Updated tell syntax to call "first document window", not "front document window"
+	
+	0.3 (2011-08-30)
+	-	Rewrote notification code to gracefully handle situations where Growl is not installed
+	
+	0.2 (2011-07-07)
+	-	Setting a due date is now optional (see settings below)
+	-	No longer fails when a Grouping divider is selected
+	-	Reorganized; incorporated Rob Trew's method to get items from OmniFocus
+	-	Fixes potential issue when launching from OmniFocus toolbar
+
+	0.1c (2010-06-22)
+		-	Actual fix for autosave
+
+	0.1b (2010-06-21)
+		-	Encapsulated autosave in "try" statements in case this fails
+
+	0.1: Initial release. Based on my Defer script, which incorporates bug fixes from Curt Clifton. By default, notifications are disabled (uncomment the appropriate lines to enable them).
+
+
+	# INSTALLATION #
+
+	1. Copy to ~/Library/Scripts/Applications/Omnifocus
+ 	2. If desired, add to the OmniFocus toolbar using View &gt; Customize Toolbar... within OmniFocus
+
+	# KNOWN BUGS #
+	
+	- When the script is invoked from the OmniFocus toolbar and canceled, OmniFocus returns an error. This issue does not occur when invoked from the script menu, a Quicksilver trigger, etc.
+		
+*)-- To change your weekend start/stop date/time, modify the following propertiesproperty setDueDate : false --set to False if you don't want to change the due dateproperty weEndDay : Sundayproperty weEndTime : 17 --due time in hours (24 hr clock)property weStartDay : Fridayproperty weStartTime : 20 --due time in hrs (24 hr clock)--To enable alerts, change these settings to True _and_ uncommentproperty showSummaryNotification : true --if true, will display success notificationsproperty useGrowl : true --if true, will use Growl for success/failure alerts-- Don't change theseproperty alertItemNum : ""property alertDayNum : ""property dueDate : ""property growlAppName : "Dan's Scripts"property allNotifications : {"General", "Error"}property enabledNotifications : {"General", "Error"}property iconApplication : "OmniFocus.app"on main()	tell application "OmniFocus"		tell content of first document window of front document			--Get selection			set validSelectedItemsList to value of (selected trees where class of its value is not item and class of its value is not folder)			set totalItems to count of validSelectedItemsList			if totalItems is 0 then				set alertName to "Error"				set alertTitle to "Script failure"				set alertText to "No valid task(s) selected"				my notify(alertName, alertTitle, alertText)				return			end if						--Calculate due date			set dueDate to current date			set theTime to time of dueDate			repeat while weekday of dueDate is not weEndDay				set dueDate to dueDate + 1 * days			end repeat			set dueDate to dueDate - theTime + weEndTime * hours			--set dueDate to dueDate + 1 * weeks --uncomment to use _next_ weekend instead						--Calculate start date			set diff to weEndDay - weStartDay			if diff &lt; 0 then set diff to diff + 7			set diff to diff * days + (weEndTime - weStartTime) * hours			set startDate to dueDate - diff						--Perform action			set successTot to 0			set autosave to false			repeat with thisItem in validSelectedItemsList				set succeeded to my setDate(thisItem, startDate, dueDate)				if succeeded then set successTot to successTot + 1			end repeat			set autosave to true		end tell	end tell		--Display summary notification	if showSummaryNotification then		if successTot &gt; 1 then set alertItemNum to "s"		set alertText to successTot &amp; " item" &amp; alertItemNum &amp; " now due this weekend." as string		my notify("General", "Script complete", alertText)	end ifend mainon setDate(selectedItem, startDate, dueDate)	set success to false	tell application "OmniFocus"		try			set start date of selectedItem to startDate			if setDueDate then set due date of selectedItem to dueDate			set success to true		end try	end tell	return successend setDate(* Begin notification code *)on notify(alertName, alertTitle, alertText)	--Call this to show a normal notification	my notifyMain(alertName, alertTitle, alertText, false)end notifyon notifyWithSticky(alertName, alertTitle, alertText)	--Show a sticky Growl notification	my notifyMain(alertName, alertTitle, alertText, true)end notifyWithStickyon IsGrowlRunning()	tell application "System Events" to set GrowlRunning to (count of (every process where creator type is "GRRR")) &gt; 0	return GrowlRunningend IsGrowlRunningon dictToString(dict) --needed to encapsulate dictionaries in osascript	set dictString to "{"	repeat with i in dict		if (length of dictString &gt; 1) then set dictString to dictString &amp; ", "		set dictString to dictString &amp; "\"" &amp; i &amp; "\""	end repeat	set dictString to dictString &amp; "}"	return dictStringend dictToStringon notifyWithGrowl(growlHelperAppName, alertName, alertTitle, alertText, useSticky)	tell my application growlHelperAppName		«event register» given «class appl»:growlAppName, «class anot»:allNotifications, «class dnot»:enabledNotifications, «class iapp»:iconApplication		«event notifygr» given «class name»:alertName, «class titl»:alertTitle, «class appl»:growlAppName, «class desc»:alertText	end tellend notifyWithGrowlon NotifyWithoutGrowl(alertText)	tell application "OmniFocus" to display dialog alertText with icon 1 buttons {"OK"} default button "OK"end NotifyWithoutGrowlon notifyMain(alertName, alertTitle, alertText, useSticky)	set GrowlRunning to my IsGrowlRunning() --check if Growl is running...	if not GrowlRunning then --if Growl isn't running...		set GrowlPath to "" --check to see if Growl is installed...		try			tell application "Finder" to tell (application file id "GRRR") to set strGrowlPath to POSIX path of (its container as alias) &amp; name		end try		if GrowlPath is not "" then --...try to launch if so...			do shell script "open " &amp; strGrowlPath &amp; " &gt; /dev/null 2&gt;&amp;1 &amp;"			delay 0.5			set GrowlRunning to my IsGrowlRunning()		end if	end if	if GrowlRunning then		tell application "Finder" to tell (application file id "GRRR") to set growlHelperAppName to name		notifyWithGrowl(growlHelperAppName, alertName, alertTitle, alertText, useSticky)	else		NotifyWithoutGrowl(alertText)	end ifend notifyMain(* end notification code *)main()	</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>09)Weekend [W]</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>13</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>CF08C895-F26D-4C3A-85CA-5DEED6E6E31E</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>4096</integer>
+		<key>Name</key>
+		<string> :: OmniFocus Script Palette</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.omnigroup.OmniFocus</string>
+					<key>Creator</key>
+					<integer>1330007875</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>OmniFocus</string>
+					<key>NewFile</key>
+					<string>/Applications/OmniFocus.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>EEEDF61C-7E84-411D-8B06-3BA5E4C3E326</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>50</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array/>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>10)-</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>AF81F426-EEF3-4537-A1F8-21EDEA5359B9</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>4096</integer>
+		<key>Name</key>
+		<string> :: OmniFocus Script Palette</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.omnigroup.OmniFocus</string>
+					<key>Creator</key>
+					<integer>1330007875</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>OmniFocus</string>
+					<key>NewFile</key>
+					<string>/Applications/OmniFocus.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>EEEDF61C-7E84-411D-8B06-3BA5E4C3E326</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>50</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>(*
+	This script clears every flag in the front OmniFocus database.
+			
+	version 0.1, by Curt Clifton
+	
+	Copyright © 2010, Curtis Clifton
+	
+	Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+	
+		• Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+		
+		• Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+		
+	THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+	
+	version 0.1: Original release
+*)(*
+	The following properties are used for script notification via Growl.
+*)property growlAppName : "Curt's Scripts"property scriptStartNotification : "Script Began"property scriptFinishNotification : "Script Completed"property defaultNotifications : {scriptFinishNotification}property allNotifications : defaultNotifications &amp; {scriptStartNotification}property iconLoaningApplication : "OmniFocus.app"(*
+	Main entry point.
+*)try	set theResponse to display dialog "Really clear every flag in the OmniFocus database?" buttons {"Clear Flags", "Cancel"} default button "Cancel" cancel button "Cancel" with title "Clear Every Flag?" with icon cautionon error	returnend trytell application "OmniFocus"		tell front document		set flagged of (every flattened task whose flagged is true) to false	end tell	end tellmy notify("Flags Cleared", "Flags cleared on all items in the database.", scriptFinishNotification)(*
+	Uses Growl to display a notification message.
+	theTitle – a string giving the notification title
+	theDescription – a string describing the notification event
+	theNotificationKind – a string giving the notification kind (must be an element of allNotifications)
+*)on notify(theTitle, theDescription, theNotificationKind)	tell application "Growl"		register as application growlAppName all notifications allNotifications default notifications defaultNotifications icon of application iconLoaningApplication		notify with name theNotificationKind title theTitle application name growlAppName description theDescription	end tellend notify</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>20)Clear All Flags [F]</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>3</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>6B559EFB-414A-4849-9427-395DE0CB9B49</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>4096</integer>
+		<key>Name</key>
+		<string> :: OmniFocus Script Palette</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.omnigroup.OmniFocus</string>
+					<key>Creator</key>
+					<integer>1330007875</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>OmniFocus</string>
+					<key>NewFile</key>
+					<string>/Applications/OmniFocus.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>EEEDF61C-7E84-411D-8B06-3BA5E4C3E326</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>50</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>(*
+	# DESCRIPTION #
+	
+	This script clears the start and due dates of the currently selected actions or projects.
+	
+	
+	# LICENSE #
+
+	Copyright © 2010-2011 Dan Byler (contact: dbyler@gmail.com)
+	Licensed under MIT License (http://www.opensource.org/licenses/mit-license.php)
+	(TL;DR: no warranty, do whatever you want with it.)
+
+
+	# CHANGE HISTORY #
+
+
+	0.51 (2011-10-31)
+	-	Updated Growl code to work with Growl 1.3 (App Store version)
+	-	Updated tell syntax to call "first document window", not "front document window"
+
+	0.5 (2011-08-30)
+	-	Rewrote notification code to gracefully handle situations where Growl is not installed
+
+	0.4 (2011-07-07)
+	-	Added ability to specify a new context for cleared items (off by default; change this in the
+		script settings below)
+	-	No longer fails when a Grouping divider is selected
+	-	Reorganized; incorporated Rob Trew's method to get items from OmniFocus
+	-	Fixes potential issue when launching from OmniFocus toolbar
+	-	Added to GitHub repo
+
+	0.3 "Someday Branch" 2010-11-03: Added option to change context 
+	0.2b 2010-06-22: Re-fixed autosave
+	0.2 2010-06-21: Encapsulated autosave in "try" statements in case this fails
+	0.1: Initial release.
+
+
+	# INSTALLATION #
+
+	1. Copy to ~/Library/Scripts/Applications/Omnifocus
+ 	2. If desired, add to the OmniFocus toolbar using View &gt; Customize Toolbar... within OmniFocus
+
+
+
+	# KNOWN ISSUES #
+	-	None
+		
+*)-- To change settings, modify the following propertiesproperty changeContext : false --true/false; if true, set newContextName (below)property newContextName : "Someday" --context the item will change to if changeContext = trueproperty showSummaryNotification : true --if true, will display success notificationsproperty useGrowl : true --if true (and showAlert is true), uses Growl for alerts-- Don't change theseproperty alertItemNum : ""property alertDayNum : ""property dueDate : ""property growlAppName : "Dan's Scripts"property allNotifications : {"General", "Error"}property enabledNotifications : {"General", "Error"}property iconApplication : "OmniFocus.app"on main()	tell application "OmniFocus"		tell content of first document window of front document			--Get selection			set validSelectedItemsList to value of (selected trees where class of its value is not item and class of its value is not folder)			set totalItems to count of validSelectedItemsList			if totalItems is 0 then				set alertName to "Error"				set alertTitle to "Script failure"				set alertText to "No valid task(s) selected"				my notify(alertName, alertTitle, alertText)				return			end if						--Perform action			set successTot to 0			set autosave to false			if changeContext then set newContext to my getContext(newContextName)			repeat with thisItem in validSelectedItemsList				if changeContext then set context of thisItem to newContext				set succeeded to my clearDate(thisItem)				if succeeded then set successTot to successTot + 1			end repeat			set autosave to true		end tell	end tell		--Display summary notification	if showSummaryNotification then		set alertName to "General"		set alertTitle to "Script complete"		if successTot &gt; 1 then set alertItemNum to "s"		set alertText to "Date(s) cleared for " &amp; successTot &amp; " item" &amp; alertItemNum &amp; "." as string		my notify(alertName, alertTitle, alertText)	end ifend mainon getContext(contextName)	tell application "OmniFocus"		tell front document			set contextID to id of item 1 of (complete contextName as context)			return first context whose id is contextID		end tell	end tellend getContexton clearDate(selectedItem)	set success to false	tell application "OmniFocus"		try			set start date of selectedItem to missing value			set due date of selectedItem to missing value			set success to true		end try	end tell	return successend clearDate(* Begin notification code *)on notify(alertName, alertTitle, alertText)	--Call this to show a normal notification	my notifyMain(alertName, alertTitle, alertText, false)end notifyon notifyWithSticky(alertName, alertTitle, alertText)	--Show a sticky Growl notification	my notifyMain(alertName, alertTitle, alertText, true)end notifyWithStickyon IsGrowlRunning()	tell application "System Events" to set GrowlRunning to (count of (every process where creator type is "GRRR")) &gt; 0	return GrowlRunningend IsGrowlRunningon dictToString(dict) --needed to encapsulate dictionaries in osascript	set dictString to "{"	repeat with i in dict		if (length of dictString &gt; 1) then set dictString to dictString &amp; ", "		set dictString to dictString &amp; "\"" &amp; i &amp; "\""	end repeat	set dictString to dictString &amp; "}"	return dictStringend dictToStringon notifyWithGrowl(growlHelperAppName, alertName, alertTitle, alertText, useSticky)	tell my application growlHelperAppName		«event register» given «class appl»:growlAppName, «class anot»:allNotifications, «class dnot»:enabledNotifications, «class iapp»:iconApplication		«event notifygr» given «class name»:alertName, «class titl»:alertTitle, «class appl»:growlAppName, «class desc»:alertText	end tellend notifyWithGrowlon NotifyWithoutGrowl(alertText)	tell application "OmniFocus" to display dialog alertText with icon 1 buttons {"OK"} default button "OK"end NotifyWithoutGrowlon notifyMain(alertName, alertTitle, alertText, useSticky)	set GrowlRunning to my IsGrowlRunning() --check if Growl is running...	if not GrowlRunning then --if Growl isn't running...		set GrowlPath to "" --check to see if Growl is installed...		try			tell application "Finder" to tell (application file id "GRRR") to set strGrowlPath to POSIX path of (its container as alias) &amp; name		end try		if GrowlPath is not "" then --...try to launch if so...			do shell script "open " &amp; strGrowlPath &amp; " &gt; /dev/null 2&gt;&amp;1 &amp;"			delay 0.5			set GrowlRunning to my IsGrowlRunning()		end if	end if	if GrowlRunning then		tell application "Finder" to tell (application file id "GRRR") to set growlHelperAppName to name		notifyWithGrowl(growlHelperAppName, alertName, alertTitle, alertText, useSticky)	else		NotifyWithoutGrowl(alertText)	end ifend notifyMain(* end notification code *)main()</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>20)Clear Dates [⌘⌫]</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>51</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>50AE1B9C-5250-4263-84A7-433DFF244CBD</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>4096</integer>
+		<key>Name</key>
+		<string> :: OmniFocus Script Palette</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.omnigroup.OmniFocus</string>
+					<key>Creator</key>
+					<integer>1330007875</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>OmniFocus</string>
+					<key>NewFile</key>
+					<string>/Applications/OmniFocus.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>EEEDF61C-7E84-411D-8B06-3BA5E4C3E326</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>50</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array/>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>30)-</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>397DD84E-8034-4F98-B2F2-F996B5915696</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>4096</integer>
+		<key>Name</key>
+		<string> :: OmniFocus Script Palette</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.omnigroup.OmniFocus</string>
+					<key>Creator</key>
+					<integer>1330007875</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>OmniFocus</string>
+					<key>NewFile</key>
+					<string>/Applications/OmniFocus.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>EEEDF61C-7E84-411D-8B06-3BA5E4C3E326</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>50</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>(*
+	# DESCRIPTION #
+	
+	Stagger Times does the same thing as Stagger Dates, but for a single day. It takes the selected tasks and reschedules each task to start at the end of the previous task based on the previous due time and the estimated time of the task.
+
+This lets me throw everything to a single day (which will use the default due time) and then spread them out throughout the day. If the tasks go too late, I know I’ve bit off more than I can chew for that day.
+
+*)
+	
+	
+property defaultStartTime : 15 --default time to use (in hours, 24-hr clock)tell application "OmniFocus"	set will autosave of front document to false		tell content of front document window of front document		set validSelectedItemsList to value of (selected trees where class of its value is not item and class of its value is not folder)		set firstTask to value of first item of selected trees		set timestamp to due date of firstTask				repeat with thisItem in validSelectedItemsList			set due date of thisItem to timestamp			set forward_time to estimated minutes of thisItem			if forward_time is missing value then				set forward_time to 15			end if			set timestamp to timestamp + (forward_time * 60)		end repeat	end tell		set will autosave of front document to trueend tell</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>30)Stagger Times over the day [Z]</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>6</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>49D45EA6-F42C-49BE-A21E-1D2E69233EC2</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>4096</integer>
+		<key>Name</key>
+		<string> :: OmniFocus Script Palette</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.omnigroup.OmniFocus</string>
+					<key>Creator</key>
+					<integer>1330007875</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>OmniFocus</string>
+					<key>NewFile</key>
+					<string>/Applications/OmniFocus.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>EEEDF61C-7E84-411D-8B06-3BA5E4C3E326</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>50</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>(*
+	# DESCRIPTION #
+	
+	Stagger Dates takes the selected tasks and redistributes them one weekday at a time. For example, if it is Monday and you select 5 tasks and hit Stagger Dates, you’ll have one task on each day of the week. If it is Tuesday, then you’ll have 4 for this week and 1 on next Monday.
+
+I use this when I plan a sequence of tasks (like all these blog posts) and want to only do one a day. I also use in when after a big reorg I have a ton of tasks on a single day. This quickly balances out tasks without having to edit them all by hand.
+*)
+	
+	
+property defaultStartTime : 15 --default time to use (in hours, 24-hr clock)tell application "OmniFocus"	set will autosave of front document to false		tell content of front document window of front document		set validSelectedItemsList to value of (selected trees where class of its value is not item and class of its value is not folder)		set firstTask to value of first item of selected trees		set timestamp to due date of firstTask				repeat with thisItem in validSelectedItemsList			set due date of thisItem to timestamp			set forward_time to estimated minutes of thisItem			if forward_time is missing value then				set forward_time to 15			end if			set timestamp to timestamp + (forward_time * 60)		end repeat	end tell		set will autosave of front document to trueend tell</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>31)Stagger Dates over the week [X]</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>7</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>958BF2B8-D9A2-4F18-B3DE-D7CBB1BFFCC4</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>4096</integer>
+		<key>Name</key>
+		<string> :: OmniFocus Script Palette</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.omnigroup.OmniFocus</string>
+					<key>Creator</key>
+					<integer>1330007875</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>OmniFocus</string>
+					<key>NewFile</key>
+					<string>/Applications/OmniFocus.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>EEEDF61C-7E84-411D-8B06-3BA5E4C3E326</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>50</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array/>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>50)-</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>43E9B2C0-A19D-43DD-9488-9B28298D1118</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>4096</integer>
+		<key>Name</key>
+		<string> :: OmniFocus Script Palette</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.omnigroup.OmniFocus</string>
+					<key>Creator</key>
+					<integer>1330007875</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>OmniFocus</string>
+					<key>NewFile</key>
+					<string>/Applications/OmniFocus.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>EEEDF61C-7E84-411D-8B06-3BA5E4C3E326</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>50</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>-- Copy OmniFocus Item URI to Clipboard---- Written by CAPH TECH-- http://tech.caph.jp/2010/10/04/omnifocusとevernoteを連携させるapplescript/--tell front window of application "OmniFocus"	try		set theTrees to selected trees of content				if (count of theTrees) &lt; 1 then			set theTrees to selected trees of sidebar		end if				if (count of theTrees) &lt; 1 then			return		end if				set theSelection to value of item 1 of theTrees				if class of theSelection is folder then			set the clipboard to "omnifocus:///folder/" &amp; id of theSelection		else if class of theSelection is project then			set the clipboard to "omnifocus:///project/" &amp; id of theSelection		else			set the clipboard to "omnifocus:///task/" &amp; id of theSelection		end if	end tryend tell</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>50)Copy Item URL [⌘C]</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>8</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>3F15D4BD-EB2D-4974-B540-B5A588C4650E</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>4096</integer>
+		<key>Name</key>
+		<string> :: OmniFocus Script Palette</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.omnigroup.OmniFocus</string>
+					<key>Creator</key>
+					<integer>1330007875</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>OmniFocus</string>
+					<key>NewFile</key>
+					<string>/Applications/OmniFocus.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>EEEDF61C-7E84-411D-8B06-3BA5E4C3E326</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>50</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>tell application "OmniFocus"	tell first document window of front document		set selectedItems to selected trees of content		if ((count of selectedItems) &lt; 1) then			error "Please first select a task"		end if		set output to ""		repeat with itemItr in selectedItems			set output to output &amp; my printTree(itemItr, 0)		end repeat	end tellend tellset the clipboard to outputon printTree(node, indent)	set output to ""	repeat indent times		set output to output &amp; "    "	end repeat	set output to output &amp; name of node &amp; (ASCII character 13)	tell application "OmniFocus"		repeat with treeItr in trees of node			set treeItr to treeItr as any			set output to output &amp; my printTree(treeItr, indent + 1)		end repeat	end tell	return outputend printTree</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>50)Copy Task Outline [C]</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>8</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>D146F958-243F-41C1-9372-A38E2E0F1346</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>4096</integer>
+		<key>Name</key>
+		<string> :: OmniFocus Script Palette</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.omnigroup.OmniFocus</string>
+					<key>Creator</key>
+					<integer>1330007875</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>OmniFocus</string>
+					<key>NewFile</key>
+					<string>/Applications/OmniFocus.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>EEEDF61C-7E84-411D-8B06-3BA5E4C3E326</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>50</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>Assumption: If the start date is in the future, the due date is don't care.
+
+NB: If the start date is in the past there is nothing to remind you of in the future.
+
+NB: If both the start date and the due date are in the future, I assume I want to be alerted to the start of the task before the due date of the task</string>
+						<key>Title</key>
+						<string>Get Task Start Date</string>
+					</dict>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>--	Created by: Sean Korzdorfer--	Created on: 10/23/12 08:53:07--	OmniFocus2Due_script v 1.0--	Release Notes:-- - An Applescript implementation. Keyboard Maestro is no longer required-- - The script allows multiple selections.-- If you have selected multiple tasks, the script can ask if you need to make changes.-- AskForChanges is OFF by default.-- If the script behaves as if it's possessed, please adjust the pause commands on line numbers: 55, 63, 71-- This can be toggled to trueproperty askForChanges : falsetell application "OmniFocus"	activate	-- This first bit is from a RobTrew example from a few years back … Lost the source url.	tell front window of application "OmniFocus"		set oTrees to selected trees of content		set lngTrees to count of oTrees				if lngTrees &lt; 1 then			set oTrees to selected trees of sidebar		end if				if lngTrees &lt; 1 then			return		end if		if (lngTrees &gt; 0) then			repeat with iTree from 1 to lngTrees				set SelectedItemInMainView to selected trees of content				set theSelection to value of (item iTree of oTrees)								-- First Test: Future Start Date found				if start date of theSelection is not missing value and start date of theSelection is greater than (current date) then					set theURl to "due:///add?title=" &amp; my urlEncode((name of theSelection &amp; " " &amp; start date of theSelection as rich text) &amp; "                                                    omnifocus:///task/" &amp; id of theSelection as rich text)					-- Second Test: No valid start date, but future due date found				else if due date of theSelection is not missing value and the due date of theSelection is greater than (current date) then					set theURl to "due:///add?title=" &amp; my urlEncode((name of theSelection &amp; " " &amp; due date of theSelection as rich text) &amp; "                                                    omnifocus:///task/" &amp; id of theSelection as rich text)					-- No valid start date or due date found. I could test for start date &gt; due date, but that's on the user.				else					-- Throw a dialog to get the date information from the user.					-- Seems if I let the use add the date information to the task input after the URL is sent, 					-- Due will not generate the selection used for deletion 					tell application "Due"						activate						display dialog "Enter Date for Task: " &amp; the name of theSelection default answer ""						set theDate to (text returned of result) as text					end tell					set theURl to "due:///add?title=" &amp; my urlEncode(((name of theSelection as rich text) &amp; " " &amp; theDate as rich text) &amp; "                                                    omnifocus:///task/" &amp; id of theSelection as rich text)				end if								tell application "Finder" to open location theURl				tell application "Due" to activate				delay 0.5 -- This delay can be tweaked for your system				tell application "System Events" to key code 51								-- If there are multiple selections. You might want to play with the clipboard delay.				if askForChanges is false and iTree is less than lngTrees then					tell application "Due" to activate					tell application "System Events" to key code 36					delay 1 -- This delay can be tweaked for your system				end if				if askForChanges is true and iTree is less than lngTrees then					-- Throw a simple display to pause the script and allow the user to make any edits to the reminder					tell application "System Events" to (display dialog "If needed, make  edits to the reminder, then complete the task. Only complete the task if you made changes." buttons {"Okay"})					-- Complete Due reminder.					tell application "Due" to activate					tell application "System Events" to key code 36					delay 1 -- This delay can be tweaked for your system									end if			end repeat		end if	end tellend tell(* http://applescript.bratis-lover.net/library/url/-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ---- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ----c-                                                                                                URL LIBRARY-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ---- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ----d-- Last modification date:                                                             2012-01-14
+Two simple handlers to decode and encode URLs. The urlEncode handler is also 
+very useful for creating AppleScript URLs as found throughout this site.--m-- http://applescript.bratis-lover.net/library/url/-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ----c-                                                                                                   COPYRIGHT-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --COPYRIGHT (c) 2008 ljr (http://applescript.bratis-lover.net)                                [ urlEncode, urlDecode ]Permission is hereby granted, free of charge, to any person obtaining a copy of thissoftware and associated documentation files (the "Software"), to deal in the Softwarewithout restriction, including without limitation the rights to use, copy, modify, merge,publish, distribute, sublicense, and/or sell copies of the Software, and to permit personsto whom the Software is furnished to do so, subject to the following conditions:The above copyright notice and this permission notice shall be included in all copiesor substantial portions of the Software.THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESSOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALLTHE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHERLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS INTHE SOFTWARE.-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ---- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --*)-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ----c-                                                                                                 PROPERTIES-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ----c--   property myName--d--   Name that should be used when loading this library.property myName : "_url"-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ----c-                                                                                         ENCODE/DECODE-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ----c--   urlEncode(str)--d--   URL encode the passed string.--a--   str : string--r--   string--x--   urlEncode("Nürnberg $%@") --&gt; "N%C3%BCrnberg%20%24%25%40"--m--  echo (man1/echo.1.html), perl (man1/perl.1.html)--u--   ljr (http://applescript.bratis-lover.net/library/url/)on urlEncode(str)	local str	try		return (do shell script "/bin/echo " &amp; quoted form of str &amp; ¬			" | perl -MURI::Escape -lne 'print uri_escape($_)'")	on error eMsg number eNum		error "Can't urlEncode: " &amp; eMsg number eNum	end tryend urlEncode--c--   urlDecode(str)--d--   URL decode the passed string.--a--   str : string--r--   string--x--   urlDecode("N%C3%BCrnberg%20%24%25%40") --&gt; "Nürnberg $%@"--m--  echo (man1/echo.1.html), perl (man1/perl.1.html)--u--   ljr (http://applescript.bratis-lover.net/library/url/)on urlDecode(str)	local str	try		return (do shell script "/bin/echo " &amp; quoted form of str &amp; ¬			" | perl -MURI::Escape -lne 'print uri_unescape($_)'")	on error eMsg number eNum		error "Can't urlDecode: " &amp; eMsg number eNum	end tryend urlDecode-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ----                                                                                                                 EOF-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>59)Send to Due.app [⌘D]</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>2</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>B9ED920B-430B-49FC-A5E6-F0175FB24F59</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>4096</integer>
+		<key>Name</key>
+		<string> :: OmniFocus Script Palette</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.omnigroup.OmniFocus</string>
+					<key>Creator</key>
+					<integer>1330007875</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>OmniFocus</string>
+					<key>NewFile</key>
+					<string>/Applications/OmniFocus.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>EEEDF61C-7E84-411D-8B06-3BA5E4C3E326</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>50</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>--by Don Southard aka binaryghost
+tell application "OmniFocus"
+	tell first document window of front document
+		set SelectedItemInMainView to selected trees of content
+		set theSelectedTask to value of item 1 of SelectedItemInMainView
+		set nameSelectedTask to name of theSelectedTask
+		set noteSelectedTask to note of theSelectedTask
+		try
+			set contextSelectedTask to name of the context of theSelectedTask
+		on error
+			set contextSelectedTask to ""
+		end try
+		
+		tell application "Sparrow"
+			set newMessage to make new outgoing message with properties {subject:"Delegated Task", content:nameSelectedTask &amp; " " &amp; contextSelectedTask &amp; return &amp; "Note: " &amp; noteSelectedTask}
+			compose newMessage
+			activate
+		end tell
+	end tell
+end tell</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>60)Email with Sparrow [E]</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>14</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>BB314BBC-93C3-4DCD-B315-3A8A64C0CA29</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>4096</integer>
+		<key>Name</key>
+		<string> :: OmniFocus Script Palette</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.omnigroup.OmniFocus</string>
+					<key>Creator</key>
+					<integer>1330007875</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>OmniFocus</string>
+					<key>NewFile</key>
+					<string>/Applications/OmniFocus.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>EEEDF61C-7E84-411D-8B06-3BA5E4C3E326</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>50</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>-- Illustrative draft Ver 0.5-- Copies anything selected in Omnifocus (Project or Context View) into OmniOutliner-- Including the following fields: DONE, NOTE, CONTEXT or PROJECT, START, DUE, COMPLETED, DURATION, FLAGGED}-- Note that the whole sub-tree is copied, so only 'parent' elements need to be selected.-- The destination is the currently open OmniOutliner document.-- (A fresh OmniOutliner document is created if none is open)property pPROJECT : "project"property pTASK : "task"property pINBX_TASK : "inbox task"property pITEM : "item"property pColProjContext : 3 as integerproperty pSTART : 4 as integerproperty pDUE : 5 as integerproperty pCOMPLETED : 6 as integerproperty pDURATION : 7 as integerproperty pFLAGGED : 8 as integeron run	set {lstActivities, blnContext} to SelectedInOF()		PlaceInOO(lstActivities, blnContext)end run-- PLACING IN OMNIOUTLINERon PlaceInOO(lstTasks, blnContext)	if (length of lstTasks &gt; 0) then		using terms from application "OmniOutliner Professional"			set docTarget to MakeTaskDoc(blnContext)			Tasks2OO(lstTasks, docTarget)			tell docTarget to set expanded of every row to true		end using terms from	end ifend PlaceInOOon Tasks2OO(lstTasks, oParent)	using terms from application "OmniOutliner Professional"		tell oParent			repeat with oTask in lstTasks				set {strName, blnDone, lstChiln, strNote, strProjContext, dteStart, dteDue, dteDone, lngMins, blnFlagged} to oTask								if length of strNote &gt; 0 then					set recRow to {topic:strName, note:strNote, expanded:true}				else					set recRow to {topic:strName, expanded:true}				end if				if blnDone then set recRow to recRow &amp; {state:checked}								set oRow to make new row at end of children with properties recRow				tell oRow					if strProjContext is not missing value then set value of cell pColProjContext to strProjContext					if dteStart is not missing value then set value of cell pSTART to dteStart					if dteDue is not missing value then set value of cell pDUE to dteDue					if blnDone then if (dteDone is not missing value) then set value of cell pCOMPLETED to dteDone					if lngMins &gt; 0 then set value of cell pDURATION to lngMins / 60					if blnFlagged then set state of cell pFLAGGED to checked				end tell								if (length of lstChiln &gt; 0) then my Tasks2OO(lstChiln, oRow)			end repeat		end tell	end using terms fromend Tasks2OOon MakeTaskDoc(blnContext)	tell application "OmniOutliner Professional"		activate		set docTarget to make new document at before documents		set oWin to front window		set bounds of oWin to {0, 0, 1000, 500}		-- Create required columns		tell docTarget						if blnContext then				make new column with properties {type:rich text, name:"Project"}			else				make new column with properties {type:rich text, name:"Context"}			end if			make new column with properties {type:date, name:"Start"}			make new column with properties {type:date, name:"Due"}			make new column with properties {type:date, name:"Completed"}			make new column with properties {type:duration, name:"Duration"}			make new column with properties {type:checkbox, name:"Flagged", width:64}		end tell		return docTarget	end tellend MakeTaskDoc-- READ SELECTED OmniFocus CONTENT TREE(S) TO NESTED APPLESCRIPT LISTS - Ver.02on SelectedInOF()	tell application "OmniFocus"		set oWin to front window		set blnContext to ((selected view mode identifier) of oWin is not equal to pPROJECT)		tell content of oWin			set lstContentSeln to selected trees			if (count of lstContentSeln) &gt; 0 then -- Whatever is SELECTED in content panel				set lstTrees to lstContentSeln				set blnAll to false			else -- EVERYTHING in the content panel				set lstTrees to trees				set blnAll to true			end if		end tell		{my Trees2List(oWin, lstTrees, blnContext, blnAll), blnContext}	end tellend SelectedInOFon Trees2List(oWin, lstTrees, blnContext, blnAll)	set lstTasks to {}		using terms from application "OmniFocus"		repeat with oNode in lstTrees			set oValue to value of oNode			set cClass to class of oValue						if cClass is not item then				if cClass is project then					set end of lstTasks to my ListProject(oNode, oValue, blnContext, blnAll)				else					set end of lstTasks to my ListContext(oNode, oValue, blnAll)				end if			else				set end of lstTasks to my ListUnProcessed(oNode, oValue, blnContext, blnAll)			end if		end repeat	end using terms from	lstTasksend Trees2Liston ListProject(oNode, oValue, blnContext, blnAll)	using terms from application "OmniFocus"		tell oNode			set lstChildren to trees of oNode			tell oValue				if (count of lstChildren) &gt; 0 then					{name, completed, my ListSubTrees(lstChildren, blnContext, blnAll), note, "", start date, due date, completion date, estimated minutes, flagged}				else					{name, completed, {}, note, "", start date, due date, completion date, estimated minutes, flagged}				end if			end tell		end tell	end using terms fromend ListProjecton ListContext(oNode, oValue, blnAll)	using terms from application "OmniFocus"		tell oNode			set lstChildren to trees			set oValue to value of oNode			tell oValue				if (count of lstChildren) &gt; 0 then					{name, false, my ListSubTrees(lstChildren, true, blnAll), note, "", missing value, missing value, missing value, 0, false}				else					{name, false, {}, note, "", missing value, missing value, missing value, 0, false}				end if			end tell		end tell	end using terms fromend ListContexton ListUnProcessed(oNode, oValue, blnContext, blnAll)	using terms from application "OmniFocus"		tell oNode			set lstChildren to trees						if blnContext then				set strName to "No Context"			else				set strName to "Inbox"			end if						tell oValue				if (count of lstChildren) &gt; 0 then					{strName, false, my ListSubTrees(lstChildren, blnContext, blnAll), "", "", missing value, missing value, missing value, 0, false}				else					{strName, false, {}, "", "", missing value, missing value, missing value, 0, false}				end if			end tell		end tell	end using terms fromend ListUnProcessedon ListSubTrees(lstTrees, blnContext, blnAll)	set lstTasks to {}	repeat with oNode in lstTrees		set end of lstTasks to my ListTask(oNode, blnContext, blnAll)	end repeat	return lstTasksend ListSubTreeson ListTask(oNode, blnContext, blnAll)	using terms from application "OmniFocus"		tell oNode			set oTask to value of oNode			set lstSubTrees to trees of oNode					end tell		if blnContext then			set oParent to containing project of oTask		else			set oParent to context of oTask		end if		if oParent is not missing value then			set strParent to name of oParent		else			set strParent to ""		end if		tell oTask			if (count of lstSubTrees) &gt; 0 then				{name, completed, my ListSubTrees(lstSubTrees, blnContext, blnAll), note, strParent, start date, due date, completion date, estimated minutes, flagged}			else				{name, completed, {}, note, strParent, start date, due date, completion date, estimated minutes, flagged}			end if		end tell	end using terms fromend ListTask</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>65)Export Selection to OmniOutliner [O]</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>31</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>255AD481-8753-480F-BBF7-976BAF4119ED</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>4096</integer>
+		<key>Name</key>
+		<string> :: OmniFocus Script Palette</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.omnigroup.OmniFocus</string>
+					<key>Creator</key>
+					<integer>1330007875</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>OmniFocus</string>
+					<key>NewFile</key>
+					<string>/Applications/OmniFocus.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>EEEDF61C-7E84-411D-8B06-3BA5E4C3E326</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>50</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>-- 2008 Feb 19
+
+
+property blnSkipDoneTasks : true
+
+on run
+	tell application "OmniFocus"
+		-- set docSource to default document
+		tell default document
+			if number of document window is 0 then
+				make new document window with properties {bounds:{0, 0, 1000, 500}}
+			end if
+			set tsksInbox to inbox tasks
+			set lstSections to sections
+		end tell
+	end tell
+	
+	-- Prepare blank document in OO
+	tell application "OmniOutliner Professional"
+		activate
+		set docTarget to make new document at before documents
+		set bounds of front window to {0, 0, 1000, 500}
+		-- Create required columns
+		tell docTarget
+			make new column with properties {type:rich text, name:"Context"}
+			
+			make new column with properties {type:date, name:"Start"}
+			make new column with properties {type:date, name:"Due"}
+			make new column with properties {type:date, name:"Completed"}
+			make new column with properties {type:duration, name:"Duration"}
+			
+			set oCol to make new column with properties {type:checkbox, name:"Flagged"}
+			set width of oCol to 64
+			
+			-- Export Inbox	
+			set oParentRow to make new row at end of children with properties {topic:"Inbox"}
+			my ExportTasks(docTarget, oParentRow, tsksInbox)
+			
+			-- Export Library
+			set oParentRow to make new row at end of children with properties {topic:"Library"}
+			my ExportSections(docTarget, oParentRow, lstSections)
+			
+			set expanded of every row to true
+			
+			set strPath to POSIX path of (path to desktop) &amp; "OF_All.opml"
+			export docTarget to strPath as "OOOPMLDocumentType"
+		end tell
+	end tell
+end run
+
+on ExportSections(docTarget, oParentRow, lstSections)
+	
+	using terms from application "OmniFocus"
+		repeat with oSectn in lstSections
+			-- Find out what kind of section this is
+			set clSectn to class of oSectn
+			set strName to name of oSectn
+			
+			if clSectn is folder then
+				-- FOLDER 
+				--Simple line 
+				using terms from application "OmniOutliner Professional"
+					tell docTarget
+						if oParentRow is not equal to missing value then
+							set oRow to make new row at end of children of oParentRow with properties {topic:strName}
+						else
+							set oRow to make new row at end of children with properties {topic:strName}
+						end if
+					end tell
+				end using terms from
+				
+				-- and recurse with any contained sections
+				set lstSubSections to sections of oSectn
+				if (count of lstSubSections) &gt; 0 then
+					my ExportSections(docTarget, oRow, lstSubSections)
+				end if
+				
+			else if clSectn is project then
+				-- PROJECT
+				-- Simple line 
+				using terms from application "OmniOutliner Professional"
+					tell docTarget
+						if oParentRow is not equal to missing value then
+							set oRow to make new row at end of children of oParentRow with properties {topic:strName}
+						else
+							set oRow to make new row at end of children with properties {topic:strName}
+						end if
+					end tell
+				end using terms from
+				
+				-- and recurse with any tasks
+				-- set oProj to oSectn as project
+				set lstTasks to tasks of oSectn
+				if (count of lstTasks) &gt; 0 then
+					my ExportTasks(docTarget, oRow, lstTasks)
+				end if
+			end if
+			
+		end repeat
+	end using terms from
+end ExportSections
+
+
+on ExportTasks(docTarget, oParentRow, lstTasks)
+	--if oParentRow is missing value then set oParentRow to docTarget
+	using terms from application "OmniFocus"
+		repeat with oTask in lstTasks
+			
+			-- get the OF Task property list
+			set propsTask to properties of oTask
+			
+			-- extract a set of relevant variables
+			set blnCompleted to completed of propsTask
+			if blnSkipDoneTasks and blnCompleted then
+				-- Skip this DONE task and its descendants
+			else
+				set strName to name of propsTask
+				set strNote to note of propsTask
+				
+				set varContext to context of propsTask
+				set varDuration to estimated minutes of propsTask
+				set varStartDate to start date of propsTask
+				set varDueDate to due date of propsTask
+				set varDoneDate to completion date of propsTask
+				set blnFlagged to flagged of propsTask
+				
+				using terms from application "OmniOutliner Professional"
+					
+					-- construct an OO Row property list			
+					set propsRow to {topic:strName}
+					if length of strNote &gt; 0 then set propsRow to {note:strNote} &amp; propsRow
+					if blnCompleted then set propsRow to {state:checked} &amp; propsRow
+					
+					-- make row
+					
+					tell docTarget
+						if oParentRow is not equal to missing value then
+							set oRow to make new row at end of children of oParentRow with properties propsRow
+						else
+							set oRow to make new row at end of children with properties propsRow
+						end if
+					end tell
+					
+					-- set oRow to make new row at end of children of oParentRow with properties propsRow
+					
+					tell oRow
+						if varContext ≠ missing value then set value of cell "Context" to name of varContext
+						
+						if varDuration ≠ missing value then
+							set lngMinutes to varDuration as integer
+							if lngMinutes &gt; 0 then
+								set value of cell "Duration" to (lngMinutes / 60)
+							end if
+						end if
+						
+						if varStartDate is not equal to missing value then set value of cell "Start" to varStartDate
+						if varDueDate is not equal to missing value then set value of cell "Due" to varDueDate
+						if varDoneDate is not equal to missing value then set value of cell "Completed" to varDoneDate
+						
+						if blnFlagged then set state of cell "Flagged" to checked
+					end tell
+					
+				end using terms from
+				-- then recurse with any child tasks
+				set lstSubTasks to tasks of oTask
+				if (count of lstSubTasks) &gt; 0 then
+					my ExportTasks(docTarget, oRow, lstSubTasks)
+				end if
+			end if
+		end repeat
+	end using terms from
+end ExportTasks
+
+
+
+
+</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>66)Export whole Library as OPML [⌘O]</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>31</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>2113507D-9926-427E-A38E-A6F15C2D9D57</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>4096</integer>
+		<key>Name</key>
+		<string> :: OmniFocus Script Palette</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.omnigroup.OmniFocus</string>
+					<key>Creator</key>
+					<integer>1330007875</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>OmniFocus</string>
+					<key>NewFile</key>
+					<string>/Applications/OmniFocus.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>EEEDF61C-7E84-411D-8B06-3BA5E4C3E326</string>
+	</dict>
+</array>
+</plist>
