@@ -16,3 +16,9 @@ Customize the macro by using the names of your own OmniFocus perspectives and ho
 ### OmniFocus Scripts Palette
 
 This is a collection of all the scripts I use with Keyboard Maestro and OmniFocus. The people who made these scripts are collected in a reference list in [this blog post](http://rocketink.net/2013/01/keyboard-maestro-as-omnifocus%27s-little-helper.html).
+
+### Bookmarklets
+
+I doubt they are interesting for anyone, but maybe it's shorter for you to copy and paste in your own bookmarklets than starting from scratch. Anyway [here] is the corresponing post to these 2 macro collections.
+
+[here]: http://gentlemac.net/2013/01/Keyboard-Maestro-and-your-browser.html)
