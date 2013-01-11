@@ -21,4 +21,10 @@ This is a collection of all the scripts I use with Keyboard Maestro and OmniFocu
 
 I doubt they are interesting for anyone, but maybe it's shorter for you to copy and paste in your own bookmarklets than starting from scratch. Anyway [here] is the corresponing post to these 2 macro collections.
 
-[here]: http://gentlemac.net/2013/01/Keyboard-Maestro-and-your-browser.html)
+Source: <http://rocketink.net/2013/01/Keyboard-Maestro-and-your-browser.html>
+
+### Sync Keyboard Maestro
+
+A tutorial on how-to automatically sync Keyboard Maestro macros with the help of Hazel and Dropbox.
+
+Source: <http://rocketink.net/2013/01/keyboard-maestro-sync.html>
