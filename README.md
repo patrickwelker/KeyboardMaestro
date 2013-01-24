@@ -28,3 +28,7 @@ Source: <http://rocketink.net/2013/01/Keyboard-Maestro-and-your-browser.html>
 A tutorial on how-to automatically sync Keyboard Maestro macros with the help of Hazel and Dropbox.
 
 Source: <http://rocketink.net/2013/01/keyboard-maestro-sync.html>
+
+### nvALT
+
+This folder contains my remapped shortcuts and an editor palette. Read more about it [here](http://rocketink.net/2013/01/my-nvalt-setup.html).
