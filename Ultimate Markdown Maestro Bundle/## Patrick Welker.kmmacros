@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>Cancels Macros inside Keyboard Maestro to make reassigning hot keys easier.</string>
+						<key>Title</key>
+						<string>Helper: Cancel Macro Hot Key In Keyboard Maestro</string>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>Application</key>
+									<dict>
+										<key>BundleIdentifier</key>
+										<string>com.stairways.keyboardmaestro.editor</string>
+										<key>Creator</key>
+										<integer>1296780109</integer>
+										<key>FileType</key>
+										<integer>1095782476</integer>
+										<key>Name</key>
+										<string>Keyboard Maestro</string>
+										<key>NewFile</key>
+										<string>/Applications/Keyboard Maestro.app</string>
+									</dict>
+									<key>ApplicationConditionType</key>
+									<string>Active</string>
+									<key>ConditionType</key>
+									<string>Application</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array/>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SystemAction</string>
+								<key>SystemAction</key>
+								<string>SystemBeep</string>
+							</dict>
+							<dict>
+								<key>Action</key>
+								<string>CancelAllMacros</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>Cancel</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>Helper: Cancel Macro Hot Key In Keyboard Maestro</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>37F7A40A-D0B3-4235-8B83-8B5785A086B5</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Patrick Welker</string>
+		<key>UID</key>
+		<string>A6AD0851-36DE-4DD8-87CE-457FE91B2A0C</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>    tell application "System Events" to keystroke "C" using command down &amp; shift down &amp; option down &amp; control down
+</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>Trigger Comment Selection</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>788AE1FA-469D-4B54-AAF5-8CAA66705D55</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Patrick Welker</string>
+		<key>UID</key>
+		<string>A6AD0851-36DE-4DD8-87CE-457FE91B2A0C</string>
+	</dict>
+</array>
+</plist>

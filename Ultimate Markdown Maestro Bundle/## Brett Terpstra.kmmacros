@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>All these macros are Services for Mac OS X from Brett Terpstra.
+
+These macros are just a wrapper for Brett's services. Feel free to customize the shortcuts to your liking.
+
+You will need to have the services installed for these macros to work.
+
+You can find the latest version of them here: &lt;http://brettterpstra.com/projects/&gt;
+
+For a detailed explanation visit this post from Brett's: &lt;http://brettterpstra.com/2012/10/16/searchlink-automated-markdown-linking-improved/&gt;
+
+I encourage you to follow his blog for getting updates on this service and on other awesome stuff.</string>
+						<key>Title</key>
+						<string>About these Macros</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<false/>
+				<key>Name</key>
+				<string>00)   ReadMe</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>5038CB6D-A79F-4572-908C-98034CB98879</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra</string>
+		<key>UID</key>
+		<string>47DB4B2A-A29A-439E-AEC6-84AB56252161</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://brettterpstra.com/2012/05/05/natural-language-date-service-update/&gt;
+
+A System Service which takes selected text and parses it into a standard date format, using keywords at the beginning to define which format to use.
+
+Examples:
+
+date +5  
+long +21  
+short tomorrow 2pm  
+date thurs 3:15pm  </string>
+						<key>Title</key>
+						<string>
+archives
+topics
+projects
+contact
+donate
+
+
+Stickermule - Awesome custom stickers. Free shipping.ads via Carbon
+
+Hosting: macminicolo.net
+|
+Read and Trust
+« Web excursions: April 20, 2012 - April 24, 2012My ultimate Markdown editor wishlist »
+Natural Language Date Service</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>Convert Date</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>Convert Date</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>039D47CB-AF1D-475E-9B2E-0D14FBA4AAA5</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra</string>
+		<key>UID</key>
+		<string>47DB4B2A-A29A-439E-AEC6-84AB56252161</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://brettterpstra.com/2012/01/24/a-service-for-writing-multimarkdown-footnotes-inline/&gt;
+
+## Syntax
+
+This is the regular text(*This is the footnote*), and you can drop the footnote in at any point.
+
+Multi-line footnotes need to begin at the end of a line of text, and just use double-newlines to separate paragraphs within the footnote, e.g.:
+
+    ...the end of the paragraph. (*This is a footnote
+
+    which is going to span
+
+    more than one line*)</string>
+						<key>Title</key>
+						<string>Convert Inline Footnotes</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>Convert Inline Footnotes</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>Convert Inline Footnotes</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>C18B4C29-5056-4A45-9811-789FDBBBFE7E</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra</string>
+		<key>UID</key>
+		<string>47DB4B2A-A29A-439E-AEC6-84AB56252161</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://brettterpstra.com/2012/10/16/searchlink-automated-markdown-linking-improved/&gt;
+
+SearchLink uses various API’s to provide results for specific types of queries. These are denoted by an exclamation mark followed by one of the following keys:
+
+!arguments:
+
+## Software
+
+!mas : search Mac App Store  
+!masd : search Mac App Store, return seller URL  
+!itu : search iTunes App Store  
+!itud : search iTunes App Store, return seller URL  
+!s : software search using Google  
+
+## General
+
+!g : first Google result  
+
+## Terminology  
+
+!wiki : Wikipedia link (Wikipedia API)  
+!def : Dictionary link/fallback to Wikipedia (DDG API)  
+
+## Music  
+
+!isong : iTunes song link  
+!iart : iTunes artist link  
+!ialb : iTunes album link  
+!lsong : Last​.fm song link  
+!lart : Last​.fm artist link
+
+## Site search
+
+any !address recognized as a url (no protocol required) will become a site-specific Google search for the link text (or specified search terms). e.g. [MarkdownEditing](!github.com)
+
+## Examples
+
+* A search for specified text: [Marked](!g "Marked mac app").
+* A simple software search for [Fantastical](!s).
+* A simple google search [neat neat neat](!g)
+* A Last.fm track search [neat neat neat](!lsong "The Damned Neat Neat Neat") (with specified search terms)
+* Mac app store search: [Marked on the MAS](!mas "Marked")
+* Mac App Store search [Marked direct](!masd "Marked") with direct dev site link.
+* iTunes app search: [Boost 2](!itu) 
+* iTunes search, direct dev site link: [Boost direct](!itud "Boost 2")
+* This search: [](!mas "Purple animator") will have its link text filled in with the title of the first result.
+* This is a wikipedia entry for [Sid Vicious](!wiki)
+* This will put the definition of [ambiguous](!def) in the title field of a link to the dictionary entry.
+* iTunes Artist search: [BRMC](!iart "Black Rebel Motorcycle Club")
+* Site specific search: [Keybindings](!brettterpstra.com "Keybinding Madness")
+</string>
+						<key>Title</key>
+						<string>SearchLink</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>SearchLink</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>SearchLink</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>02563823-B2DE-4AE4-ADA3-AA0BD0817431</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra</string>
+		<key>UID</key>
+		<string>47DB4B2A-A29A-439E-AEC6-84AB56252161</string>
+	</dict>
+</array>
+</plist>

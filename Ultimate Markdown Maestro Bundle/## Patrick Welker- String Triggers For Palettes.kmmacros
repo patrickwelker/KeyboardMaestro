@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>tell application "System Events" to keystroke "l" using command down &amp; shift down &amp; option down &amp; control down
+</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>Trigger Generate SearchLink</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>Case</key>
+						<string>Exact</string>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>link  </string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>9801812D-7645-4229-89CF-C2F28B5B1812</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Patrick Welker: String Triggers For Palettes</string>
+		<key>UID</key>
+		<string>F0A474DC-77B8-4FEB-9AB8-3305793FD10C</string>
+	</dict>
+</array>
+</plist>

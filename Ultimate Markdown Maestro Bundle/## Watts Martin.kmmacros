@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>Markdown Services is a Service for Mac OS X from Watts Martin.
+
+This macro palette is just a wrapper for all the service. Feel free to customize the shortcuts to your liking.
+
+You will need to have the services installed for these macros to work.
+
+In addition you'll have to install some scripts. Visit Martin's blog to find out what you need:
+
+- Coyote Tracks - Updated Markdown services: &lt;http://tracks.ranea.org/post/23045209987&gt;
+- Download: &lt;http://ranea.org/markdown_services.html&gt;</string>
+						<key>Title</key>
+						<string>About the "Markdown Service" group by Patrick Welker</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<false/>
+				<key>Name</key>
+				<string>00)   ReadMe</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>D84C17B9-FC4F-4A51-8966-F2FB82DCE169</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Watts Martin</string>
+		<key>UID</key>
+		<string>9EFBF7F2-0791-4F0F-9371-2D37CEB866DB</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://ranea.org/markdown_services.html&gt;
+
+Copies the selected Markdown text to the clipboard as rich text, suitable for pasting into TextEdit or a word processor.
+
+You need to read the dependencies on Martin's blog for this to work.</string>
+						<key>Title</key>
+						<string>Copy Markdown as RTF</string>
+					</dict>
+					<dict>
+						<key>Count</key>
+						<integer>1</integer>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>37F7A40A-D0B3-4235-8B83-8B5785A086B5</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>Copy Markdown as RTF</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<false/>
+				<key>Name</key>
+				<string>Copy Markdown as RTF</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>91B93C0F-1AEF-410E-B538-A269558BEB0E</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Watts Martin</string>
+		<key>UID</key>
+		<string>9EFBF7F2-0791-4F0F-9371-2D37CEB866DB</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://ranea.org/markdown_services.html&gt;
+
+Copies the selected Markdown text to the clipboard as rich text, suitable for pasting into TextEdit or a word processor.
+
+You need to read the dependencies on Martin's blog for this to work.</string>
+						<key>Title</key>
+						<string>Copy Markdown as RTF</string>
+					</dict>
+					<dict>
+						<key>Count</key>
+						<integer>1</integer>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>37F7A40A-D0B3-4235-8B83-8B5785A086B5</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>Copy MultiMarkdown as RTF</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>Copy MultiMarkdown as RTF</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>B6AB9D0D-6965-49B9-97A9-DCD537E9E149</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Watts Martin</string>
+		<key>UID</key>
+		<string>9EFBF7F2-0791-4F0F-9371-2D37CEB866DB</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://ranea.org/markdown_services.html&gt;
+
+Replaces selected HTML with the corresponding Markdown.</string>
+						<key>Title</key>
+						<string>Paste as Markdown</string>
+					</dict>
+					<dict>
+						<key>Count</key>
+						<integer>1</integer>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>37F7A40A-D0B3-4235-8B83-8B5785A086B5</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>HTML to Markdown</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<false/>
+				<key>Name</key>
+				<string>HTML to Markdown</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>65B02483-AE4D-4443-A43D-982FD67CE561</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Watts Martin</string>
+		<key>UID</key>
+		<string>9EFBF7F2-0791-4F0F-9371-2D37CEB866DB</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://ranea.org/markdown_services.html&gt;
+
+Replaces selected text written in Markdown with the corresponding HTML.</string>
+						<key>Title</key>
+						<string>Paste as Markdown</string>
+					</dict>
+					<dict>
+						<key>Count</key>
+						<integer>1</integer>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>37F7A40A-D0B3-4235-8B83-8B5785A086B5</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>Markdown to HTML</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<false/>
+				<key>Name</key>
+				<string>Markdown to HTML</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>6FB94EB3-70A6-4D5F-AEC8-91D6FAC41095</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Watts Martin</string>
+		<key>UID</key>
+		<string>9EFBF7F2-0791-4F0F-9371-2D37CEB866DB</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://ranea.org/markdown_services.html&gt;
+
+Converts rich text on the clipboard into Markdown and pastes it into a document.
+
+You need to read the dependencies on Martin's blog for this to work.</string>
+						<key>Title</key>
+						<string>Paste as Markdown</string>
+					</dict>
+					<dict>
+						<key>Count</key>
+						<integer>1</integer>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>37F7A40A-D0B3-4235-8B83-8B5785A086B5</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>Paste as Markdown</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>Paste (RTF) as Markdown</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>F2310A66-4589-442A-8910-7719D9D608CA</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Watts Martin</string>
+		<key>UID</key>
+		<string>9EFBF7F2-0791-4F0F-9371-2D37CEB866DB</string>
+	</dict>
+</array>
+</plist>
