@@ -886,7 +886,7 @@ Suggested key bindings: None, run it from the Services menu
 					</dict>
 				</array>
 				<key>IsActive</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>md - Link List From Safari Tabs</string>
 				<key>Triggers</key>
@@ -1294,7 +1294,7 @@ Suggested key bindings: Command-Shift-L</string>
 					</dict>
 				</array>
 				<key>IsActive</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>md - Wrap Angle Brackets</string>
 				<key>Triggers</key>
@@ -1353,7 +1353,7 @@ Suggested key bindings: Control-Shift-[ (square brackets) and Control-Shift-9 (p
 					</dict>
 				</array>
 				<key>IsActive</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>md - Wrap Parenthesis</string>
 				<key>Triggers</key>
@@ -1412,7 +1412,7 @@ Suggested key bindings: Control-Shift-[ (square brackets) and Control-Shift-9 (p
 					</dict>
 				</array>
 				<key>IsActive</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>md - Wrap Square Brackets</string>
 				<key>Triggers</key>

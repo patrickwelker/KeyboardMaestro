@@ -22,6 +22,1887 @@
 						<key>IsActive</key>
 						<true/>
 						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>SearchLink is a Service for Mac OS X from Brett Terpstra.
+
+This macro palette is just a wrapper for this service. Feel free to customize the shortcuts to your liking.
+
+You will need to have the service installed for these macros to work.
+
+You can find the latest version of SearchLink here: &lt;http://brettterpstra.com/projects/&gt;
+
+For a detailed explanation (for example which parts of the Service are optional) visit this post from Brett's: &lt;http://brettterpstra.com/2012/10/16/searchlink-automated-markdown-linking-improved/&gt;
+
+I encourage you to follow his blog for getting updates on this service and on other awesome stuff.</string>
+						<key>Title</key>
+						<string>About the "Generate SearchLink" palette by Patrick Welker</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<false/>
+				<key>Name</key>
+				<string>00)   ReadMe</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>D7F8A6F5-B226-43C5-90B2-5AE6AE55BBBE</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>6912</integer>
+		<key>Name</key>
+		<string>## Brett Terpstra: Generate SearchLink</string>
+		<key>UID</key>
+		<string>0EF6D310-F5CA-4761-B4A6-268636030207</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>37</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array/>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>00)⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯GENERAL SEARCH⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>D69DC9EF-8643-4CDC-BAC2-7A91D2C37E3A</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>6912</integer>
+		<key>Name</key>
+		<string>## Brett Terpstra: Generate SearchLink</string>
+		<key>UID</key>
+		<string>0EF6D310-F5CA-4761-B4A6-268636030207</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>37</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://brettterpstra.com/2012/10/16/searchlink-automated-markdown-linking-improved/&gt;
+
+SearchLink uses various API’s to provide results for specific types of queries. These are denoted by an exclamation mark followed by one of the following keys:
+
+!arguments:
+
+## Software
+
+!mas : search Mac App Store  
+!masd : search Mac App Store, return seller URL  
+!itu : search iTunes App Store  
+!itud : search iTunes App Store, return seller URL  
+!s : software search using Google  
+
+## General
+
+!g : first Google result  
+
+## Terminology  
+
+!wiki : Wikipedia link (Wikipedia API)  
+!def : Dictionary link/fallback to Wikipedia (DDG API)  
+
+## Music  
+
+!isong : iTunes song link  
+!iart : iTunes artist link  
+!ialb : iTunes album link  
+!lsong : Last​.fm song link  
+!lart : Last​.fm artist link
+
+## Site search
+
+any !address recognized as a url (no protocol required) will become a site-specific Google search for the link text (or specified search terms). e.g. [MarkdownEditing](!github.com)
+
+## Examples
+
+* A search for specified text: [Marked](!g "Marked mac app").
+* A simple software search for [Fantastical](!s).
+* A simple google search [neat neat neat](!g)
+* A Last.fm track search [neat neat neat](!lsong "The Damned Neat Neat Neat") (with specified search terms)
+* Mac app store search: [Marked on the MAS](!mas "Marked")
+* Mac App Store search [Marked direct](!masd "Marked") with direct dev site link.
+* iTunes app search: [Boost 2](!itu) 
+* iTunes search, direct dev site link: [Boost direct](!itud "Boost 2")
+* This search: [](!mas "Purple animator") will have its link text filled in with the title of the first result.
+* This is a wikipedia entry for [Sid Vicious](!wiki)
+* This will put the definition of [ambiguous](!def) in the title field of a link to the dictionary entry.
+* iTunes Artist search: [BRMC](!iart "Black Rebel Motorcycle Club")
+* Site specific search: [Keybindings](!brettterpstra.com "Keybinding Madness")
+</string>
+						<key>Title</key>
+						<string>SearchLink</string>
+					</dict>
+					<dict>
+						<key>Buttons</key>
+						<array>
+							<dict>
+								<key>Button</key>
+								<string>OK</string>
+							</dict>
+							<dict>
+								<key>Button</key>
+								<string>Cancel</string>
+								<key>Cancel</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>PromptForUserInput</string>
+						<key>Prompt</key>
+						<string>Please enter a reference tag</string>
+						<key>ResultButtonVariable</key>
+						<string>Result Button</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>Reference Tag</string>
+						<key>Variables</key>
+						<array>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Reference</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Text</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>Text</string>
+									<key>VariableConditionType</key>
+									<string>IsEmpty</string>
+									<key>VariableValue</key>
+									<string>value</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!g "%Variable%Text%")</string>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!g)</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>02)G. Search Google</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>5</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>4306B9B5-90E3-43A7-AFBD-45BB64DFBB5D</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>6912</integer>
+		<key>Name</key>
+		<string>## Brett Terpstra: Generate SearchLink</string>
+		<key>UID</key>
+		<string>0EF6D310-F5CA-4761-B4A6-268636030207</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>37</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://brettterpstra.com/2012/10/16/searchlink-automated-markdown-linking-improved/&gt;
+
+SearchLink uses various API’s to provide results for specific types of queries. These are denoted by an exclamation mark followed by one of the following keys:
+
+!arguments:
+
+## Software
+
+!mas : search Mac App Store  
+!masd : search Mac App Store, return seller URL  
+!itu : search iTunes App Store  
+!itud : search iTunes App Store, return seller URL  
+!s : software search using Google  
+
+## General
+
+!g : first Google result  
+
+## Terminology  
+
+!wiki : Wikipedia link (Wikipedia API)  
+!def : Dictionary link/fallback to Wikipedia (DDG API)  
+
+## Music  
+
+!isong : iTunes song link  
+!iart : iTunes artist link  
+!ialb : iTunes album link  
+!lsong : Last​.fm song link  
+!lart : Last​.fm artist link
+
+## Site search
+
+any !address recognized as a url (no protocol required) will become a site-specific Google search for the link text (or specified search terms). e.g. [MarkdownEditing](!github.com)
+
+## Examples
+
+* A search for specified text: [Marked](!g "Marked mac app").
+* A simple software search for [Fantastical](!s).
+* A simple google search [neat neat neat](!g)
+* A Last.fm track search [neat neat neat](!lsong "The Damned Neat Neat Neat") (with specified search terms)
+* Mac app store search: [Marked on the MAS](!mas "Marked")
+* Mac App Store search [Marked direct](!masd "Marked") with direct dev site link.
+* iTunes app search: [Boost 2](!itu) 
+* iTunes search, direct dev site link: [Boost direct](!itud "Boost 2")
+* This search: [](!mas "Purple animator") will have its link text filled in with the title of the first result.
+* This is a wikipedia entry for [Sid Vicious](!wiki)
+* This will put the definition of [ambiguous](!def) in the title field of a link to the dictionary entry.
+* iTunes Artist search: [BRMC](!iart "Black Rebel Motorcycle Club")
+* Site specific search: [Keybindings](!brettterpstra.com "Keybinding Madness")
+</string>
+						<key>Title</key>
+						<string>SearchLink</string>
+					</dict>
+					<dict>
+						<key>Buttons</key>
+						<array>
+							<dict>
+								<key>Button</key>
+								<string>OK</string>
+							</dict>
+							<dict>
+								<key>Button</key>
+								<string>Cancel</string>
+								<key>Cancel</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>PromptForUserInput</string>
+						<key>Prompt</key>
+						<string>Please enter a reference tag</string>
+						<key>ResultButtonVariable</key>
+						<string>Result Button</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>Reference Tag</string>
+						<key>Variables</key>
+						<array>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Reference</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Search</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string>rocketink.net</string>
+								<key>Variable</key>
+								<string>Site</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>Search</string>
+									<key>VariableConditionType</key>
+									<string>IsEmpty</string>
+									<key>VariableValue</key>
+									<string>value</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!%Variable%Site% "%Variable%Search%")</string>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!%Variable%Site%)</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>03)Z. Search Site</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>6</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>044FB8AE-9D05-49D9-B009-972CEE32EFAA</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>6912</integer>
+		<key>Name</key>
+		<string>## Brett Terpstra: Generate SearchLink</string>
+		<key>UID</key>
+		<string>0EF6D310-F5CA-4761-B4A6-268636030207</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>37</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array/>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>04)⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯APPLICATIONS⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>51E4499F-392A-4B2F-8F3C-964F045097C4</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>6912</integer>
+		<key>Name</key>
+		<string>## Brett Terpstra: Generate SearchLink</string>
+		<key>UID</key>
+		<string>0EF6D310-F5CA-4761-B4A6-268636030207</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>37</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://brettterpstra.com/2012/10/16/searchlink-automated-markdown-linking-improved/&gt;
+
+SearchLink uses various API’s to provide results for specific types of queries. These are denoted by an exclamation mark followed by one of the following keys:
+
+!arguments:
+
+## Software
+
+!mas : search Mac App Store  
+!masd : search Mac App Store, return seller URL  
+!itu : search iTunes App Store  
+!itud : search iTunes App Store, return seller URL  
+!s : software search using Google  
+
+## General
+
+!g : first Google result  
+
+## Terminology  
+
+!wiki : Wikipedia link (Wikipedia API)  
+!def : Dictionary link/fallback to Wikipedia (DDG API)  
+
+## Music  
+
+!isong : iTunes song link  
+!iart : iTunes artist link  
+!ialb : iTunes album link  
+!lsong : Last​.fm song link  
+!lart : Last​.fm artist link
+
+## Site search
+
+any !address recognized as a url (no protocol required) will become a site-specific Google search for the link text (or specified search terms). e.g. [MarkdownEditing](!github.com)
+
+## Examples
+
+* A search for specified text: [Marked](!g "Marked mac app").
+* A simple software search for [Fantastical](!s).
+* A simple google search [neat neat neat](!g)
+* A Last.fm track search [neat neat neat](!lsong "The Damned Neat Neat Neat") (with specified search terms)
+* Mac app store search: [Marked on the MAS](!mas "Marked")
+* Mac App Store search [Marked direct](!masd "Marked") with direct dev site link.
+* iTunes app search: [Boost 2](!itu) 
+* iTunes search, direct dev site link: [Boost direct](!itud "Boost 2")
+* This search: [](!mas "Purple animator") will have its link text filled in with the title of the first result.
+* This is a wikipedia entry for [Sid Vicious](!wiki)
+* This will put the definition of [ambiguous](!def) in the title field of a link to the dictionary entry.
+* iTunes Artist search: [BRMC](!iart "Black Rebel Motorcycle Club")
+* Site specific search: [Keybindings](!brettterpstra.com "Keybinding Madness")
+</string>
+						<key>Title</key>
+						<string>SearchLink</string>
+					</dict>
+					<dict>
+						<key>Buttons</key>
+						<array>
+							<dict>
+								<key>Button</key>
+								<string>OK</string>
+							</dict>
+							<dict>
+								<key>Button</key>
+								<string>Cancel</string>
+								<key>Cancel</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>PromptForUserInput</string>
+						<key>Prompt</key>
+						<string>Please enter a reference tag</string>
+						<key>ResultButtonVariable</key>
+						<string>Result Button</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>Reference Tag</string>
+						<key>Variables</key>
+						<array>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Reference</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Text</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>Text</string>
+									<key>VariableConditionType</key>
+									<string>IsEmpty</string>
+									<key>VariableValue</key>
+									<string>value</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!s "%Variable%Text%")</string>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!s)</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>04)S. Software search using Google</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>1</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>E6192AE6-2973-46C9-BFEE-3D35F2C29E7B</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>6912</integer>
+		<key>Name</key>
+		<string>## Brett Terpstra: Generate SearchLink</string>
+		<key>UID</key>
+		<string>0EF6D310-F5CA-4761-B4A6-268636030207</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>37</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://brettterpstra.com/2012/10/16/searchlink-automated-markdown-linking-improved/&gt;
+
+SearchLink uses various API’s to provide results for specific types of queries. These are denoted by an exclamation mark followed by one of the following keys:
+
+!arguments:
+
+## Software
+
+!mas : search Mac App Store  
+!masd : search Mac App Store, return seller URL  
+!itu : search iTunes App Store  
+!itud : search iTunes App Store, return seller URL  
+!s : software search using Google  
+
+## General
+
+!g : first Google result  
+
+## Terminology  
+
+!wiki : Wikipedia link (Wikipedia API)  
+!def : Dictionary link/fallback to Wikipedia (DDG API)  
+
+## Music  
+
+!isong : iTunes song link  
+!iart : iTunes artist link  
+!ialb : iTunes album link  
+!lsong : Last​.fm song link  
+!lart : Last​.fm artist link
+
+## Site search
+
+any !address recognized as a url (no protocol required) will become a site-specific Google search for the link text (or specified search terms). e.g. [MarkdownEditing](!github.com)
+
+## Examples
+
+* A search for specified text: [Marked](!g "Marked mac app").
+* A simple software search for [Fantastical](!s).
+* A simple google search [neat neat neat](!g)
+* A Last.fm track search [neat neat neat](!lsong "The Damned Neat Neat Neat") (with specified search terms)
+* Mac app store search: [Marked on the MAS](!mas "Marked")
+* Mac App Store search [Marked direct](!masd "Marked") with direct dev site link.
+* iTunes app search: [Boost 2](!itu) 
+* iTunes search, direct dev site link: [Boost direct](!itud "Boost 2")
+* This search: [](!mas "Purple animator") will have its link text filled in with the title of the first result.
+* This is a wikipedia entry for [Sid Vicious](!wiki)
+* This will put the definition of [ambiguous](!def) in the title field of a link to the dictionary entry.
+* iTunes Artist search: [BRMC](!iart "Black Rebel Motorcycle Club")
+* Site specific search: [Keybindings](!brettterpstra.com "Keybinding Madness")
+</string>
+						<key>Title</key>
+						<string>SearchLink</string>
+					</dict>
+					<dict>
+						<key>Buttons</key>
+						<array>
+							<dict>
+								<key>Button</key>
+								<string>OK</string>
+							</dict>
+							<dict>
+								<key>Button</key>
+								<string>Cancel</string>
+								<key>Cancel</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>PromptForUserInput</string>
+						<key>Prompt</key>
+						<string>Please enter a reference tag</string>
+						<key>ResultButtonVariable</key>
+						<string>Result Button</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>Reference Tag</string>
+						<key>Variables</key>
+						<array>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Reference</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Text</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>Text</string>
+									<key>VariableConditionType</key>
+									<string>IsEmpty</string>
+									<key>VariableValue</key>
+									<string>value</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!mas "%Variable%Text%")</string>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!mas)</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>05)M. Search Mac App Store</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>46</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>85DE79D6-ABC7-428C-8218-836D7222597B</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>6912</integer>
+		<key>Name</key>
+		<string>## Brett Terpstra: Generate SearchLink</string>
+		<key>UID</key>
+		<string>0EF6D310-F5CA-4761-B4A6-268636030207</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>37</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://brettterpstra.com/2012/10/16/searchlink-automated-markdown-linking-improved/&gt;
+
+SearchLink uses various API’s to provide results for specific types of queries. These are denoted by an exclamation mark followed by one of the following keys:
+
+!arguments:
+
+## Software
+
+!mas : search Mac App Store  
+!masd : search Mac App Store, return seller URL  
+!itu : search iTunes App Store  
+!itud : search iTunes App Store, return seller URL  
+!s : software search using Google  
+
+## General
+
+!g : first Google result  
+
+## Terminology  
+
+!wiki : Wikipedia link (Wikipedia API)  
+!def : Dictionary link/fallback to Wikipedia (DDG API)  
+
+## Music  
+
+!isong : iTunes song link  
+!iart : iTunes artist link  
+!ialb : iTunes album link  
+!lsong : Last​.fm song link  
+!lart : Last​.fm artist link
+
+## Site search
+
+any !address recognized as a url (no protocol required) will become a site-specific Google search for the link text (or specified search terms). e.g. [MarkdownEditing](!github.com)
+
+## Examples
+
+* A search for specified text: [Marked](!g "Marked mac app").
+* A simple software search for [Fantastical](!s).
+* A simple google search [neat neat neat](!g)
+* A Last.fm track search [neat neat neat](!lsong "The Damned Neat Neat Neat") (with specified search terms)
+* Mac app store search: [Marked on the MAS](!mas "Marked")
+* Mac App Store search [Marked direct](!masd "Marked") with direct dev site link.
+* iTunes app search: [Boost 2](!itu) 
+* iTunes search, direct dev site link: [Boost direct](!itud "Boost 2")
+* This search: [](!mas "Purple animator") will have its link text filled in with the title of the first result.
+* This is a wikipedia entry for [Sid Vicious](!wiki)
+* This will put the definition of [ambiguous](!def) in the title field of a link to the dictionary entry.
+* iTunes Artist search: [BRMC](!iart "Black Rebel Motorcycle Club")
+* Site specific search: [Keybindings](!brettterpstra.com "Keybinding Madness")
+</string>
+						<key>Title</key>
+						<string>SearchLink</string>
+					</dict>
+					<dict>
+						<key>Buttons</key>
+						<array>
+							<dict>
+								<key>Button</key>
+								<string>OK</string>
+							</dict>
+							<dict>
+								<key>Button</key>
+								<string>Cancel</string>
+								<key>Cancel</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>PromptForUserInput</string>
+						<key>Prompt</key>
+						<string>Please enter a reference tag</string>
+						<key>ResultButtonVariable</key>
+						<string>Result Button</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>Reference Tag</string>
+						<key>Variables</key>
+						<array>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Reference</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Text</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>Text</string>
+									<key>VariableConditionType</key>
+									<string>IsEmpty</string>
+									<key>VariableValue</key>
+									<string>value</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!masd "%Variable%Text%")</string>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!masd)</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>06)⌘M. Search Mac App Store Developer</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>46</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>27527F36-E877-44C2-A187-961076171789</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>6912</integer>
+		<key>Name</key>
+		<string>## Brett Terpstra: Generate SearchLink</string>
+		<key>UID</key>
+		<string>0EF6D310-F5CA-4761-B4A6-268636030207</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>37</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://brettterpstra.com/2012/10/16/searchlink-automated-markdown-linking-improved/&gt;
+
+SearchLink uses various API’s to provide results for specific types of queries. These are denoted by an exclamation mark followed by one of the following keys:
+
+!arguments:
+
+## Software
+
+!mas : search Mac App Store  
+!masd : search Mac App Store, return seller URL  
+!itu : search iTunes App Store  
+!itud : search iTunes App Store, return seller URL  
+!s : software search using Google  
+
+## General
+
+!g : first Google result  
+
+## Terminology  
+
+!wiki : Wikipedia link (Wikipedia API)  
+!def : Dictionary link/fallback to Wikipedia (DDG API)  
+
+## Music  
+
+!isong : iTunes song link  
+!iart : iTunes artist link  
+!ialb : iTunes album link  
+!lsong : Last​.fm song link  
+!lart : Last​.fm artist link
+
+## Site search
+
+any !address recognized as a url (no protocol required) will become a site-specific Google search for the link text (or specified search terms). e.g. [MarkdownEditing](!github.com)
+
+## Examples
+
+* A search for specified text: [Marked](!g "Marked mac app").
+* A simple software search for [Fantastical](!s).
+* A simple google search [neat neat neat](!g)
+* A Last.fm track search [neat neat neat](!lsong "The Damned Neat Neat Neat") (with specified search terms)
+* Mac app store search: [Marked on the MAS](!mas "Marked")
+* Mac App Store search [Marked direct](!masd "Marked") with direct dev site link.
+* iTunes app search: [Boost 2](!itu) 
+* iTunes search, direct dev site link: [Boost direct](!itud "Boost 2")
+* This search: [](!mas "Purple animator") will have its link text filled in with the title of the first result.
+* This is a wikipedia entry for [Sid Vicious](!wiki)
+* This will put the definition of [ambiguous](!def) in the title field of a link to the dictionary entry.
+* iTunes Artist search: [BRMC](!iart "Black Rebel Motorcycle Club")
+* Site specific search: [Keybindings](!brettterpstra.com "Keybinding Madness")
+</string>
+						<key>Title</key>
+						<string>SearchLink</string>
+					</dict>
+					<dict>
+						<key>Buttons</key>
+						<array>
+							<dict>
+								<key>Button</key>
+								<string>OK</string>
+							</dict>
+							<dict>
+								<key>Button</key>
+								<string>Cancel</string>
+								<key>Cancel</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>PromptForUserInput</string>
+						<key>Prompt</key>
+						<string>Please enter a reference tag</string>
+						<key>ResultButtonVariable</key>
+						<string>Result Button</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>Reference Tag</string>
+						<key>Variables</key>
+						<array>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Reference</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Text</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>Text</string>
+									<key>VariableConditionType</key>
+									<string>IsEmpty</string>
+									<key>VariableValue</key>
+									<string>value</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!itu "%Variable%Text%")</string>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!itu)</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>07)I. Search iTunes App Store</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>34</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>D3C3F3B2-A75A-4562-B5B4-3CDE4B56D495</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>6912</integer>
+		<key>Name</key>
+		<string>## Brett Terpstra: Generate SearchLink</string>
+		<key>UID</key>
+		<string>0EF6D310-F5CA-4761-B4A6-268636030207</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>37</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://brettterpstra.com/2012/10/16/searchlink-automated-markdown-linking-improved/&gt;
+
+SearchLink uses various API’s to provide results for specific types of queries. These are denoted by an exclamation mark followed by one of the following keys:
+
+!arguments:
+
+## Software
+
+!mas : search Mac App Store  
+!masd : search Mac App Store, return seller URL  
+!itu : search iTunes App Store  
+!itud : search iTunes App Store, return seller URL  
+!s : software search using Google  
+
+## General
+
+!g : first Google result  
+
+## Terminology  
+
+!wiki : Wikipedia link (Wikipedia API)  
+!def : Dictionary link/fallback to Wikipedia (DDG API)  
+
+## Music  
+
+!isong : iTunes song link  
+!iart : iTunes artist link  
+!ialb : iTunes album link  
+!lsong : Last​.fm song link  
+!lart : Last​.fm artist link
+
+## Site search
+
+any !address recognized as a url (no protocol required) will become a site-specific Google search for the link text (or specified search terms). e.g. [MarkdownEditing](!github.com)
+
+## Examples
+
+* A search for specified text: [Marked](!g "Marked mac app").
+* A simple software search for [Fantastical](!s).
+* A simple google search [neat neat neat](!g)
+* A Last.fm track search [neat neat neat](!lsong "The Damned Neat Neat Neat") (with specified search terms)
+* Mac app store search: [Marked on the MAS](!mas "Marked")
+* Mac App Store search [Marked direct](!masd "Marked") with direct dev site link.
+* iTunes app search: [Boost 2](!itu) 
+* iTunes search, direct dev site link: [Boost direct](!itud "Boost 2")
+* This search: [](!mas "Purple animator") will have its link text filled in with the title of the first result.
+* This is a wikipedia entry for [Sid Vicious](!wiki)
+* This will put the definition of [ambiguous](!def) in the title field of a link to the dictionary entry.
+* iTunes Artist search: [BRMC](!iart "Black Rebel Motorcycle Club")
+* Site specific search: [Keybindings](!brettterpstra.com "Keybinding Madness")
+</string>
+						<key>Title</key>
+						<string>SearchLink</string>
+					</dict>
+					<dict>
+						<key>Buttons</key>
+						<array>
+							<dict>
+								<key>Button</key>
+								<string>OK</string>
+							</dict>
+							<dict>
+								<key>Button</key>
+								<string>Cancel</string>
+								<key>Cancel</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>PromptForUserInput</string>
+						<key>Prompt</key>
+						<string>Please enter a reference tag</string>
+						<key>ResultButtonVariable</key>
+						<string>Result Button</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>Reference Tag</string>
+						<key>Variables</key>
+						<array>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Reference</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Text</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>Text</string>
+									<key>VariableConditionType</key>
+									<string>IsEmpty</string>
+									<key>VariableValue</key>
+									<string>value</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!itud "%Variable%Text%")</string>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!mas)</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>08)⌘I. Search iTunes App Store Developer</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>34</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>67E3473C-58DD-4887-AD9F-C3AD8F15BFB1</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>6912</integer>
+		<key>Name</key>
+		<string>## Brett Terpstra: Generate SearchLink</string>
+		<key>UID</key>
+		<string>0EF6D310-F5CA-4761-B4A6-268636030207</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>37</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array/>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>20)⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯REFERENCES⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>282B6211-815B-4D52-8E45-729AD2657FF2</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>6912</integer>
+		<key>Name</key>
+		<string>## Brett Terpstra: Generate SearchLink</string>
+		<key>UID</key>
+		<string>0EF6D310-F5CA-4761-B4A6-268636030207</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>37</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://brettterpstra.com/2012/10/16/searchlink-automated-markdown-linking-improved/&gt;
+
+SearchLink uses various API’s to provide results for specific types of queries. These are denoted by an exclamation mark followed by one of the following keys:
+
+!arguments:
+
+## Software
+
+!mas : search Mac App Store  
+!masd : search Mac App Store, return seller URL  
+!itu : search iTunes App Store  
+!itud : search iTunes App Store, return seller URL  
+!s : software search using Google  
+
+## General
+
+!g : first Google result  
+
+## Terminology  
+
+!wiki : Wikipedia link (Wikipedia API)  
+!def : Dictionary link/fallback to Wikipedia (DDG API)  
+
+## Music  
+
+!isong : iTunes song link  
+!iart : iTunes artist link  
+!ialb : iTunes album link  
+!lsong : Last​.fm song link  
+!lart : Last​.fm artist link
+
+## Site search
+
+any !address recognized as a url (no protocol required) will become a site-specific Google search for the link text (or specified search terms). e.g. [MarkdownEditing](!github.com)
+
+## Examples
+
+* A search for specified text: [Marked](!g "Marked mac app").
+* A simple software search for [Fantastical](!s).
+* A simple google search [neat neat neat](!g)
+* A Last.fm track search [neat neat neat](!lsong "The Damned Neat Neat Neat") (with specified search terms)
+* Mac app store search: [Marked on the MAS](!mas "Marked")
+* Mac App Store search [Marked direct](!masd "Marked") with direct dev site link.
+* iTunes app search: [Boost 2](!itu) 
+* iTunes search, direct dev site link: [Boost direct](!itud "Boost 2")
+* This search: [](!mas "Purple animator") will have its link text filled in with the title of the first result.
+* This is a wikipedia entry for [Sid Vicious](!wiki)
+* This will put the definition of [ambiguous](!def) in the title field of a link to the dictionary entry.
+* iTunes Artist search: [BRMC](!iart "Black Rebel Motorcycle Club")
+* Site specific search: [Keybindings](!brettterpstra.com "Keybinding Madness")
+</string>
+						<key>Title</key>
+						<string>SearchLink</string>
+					</dict>
+					<dict>
+						<key>Buttons</key>
+						<array>
+							<dict>
+								<key>Button</key>
+								<string>OK</string>
+							</dict>
+							<dict>
+								<key>Button</key>
+								<string>Cancel</string>
+								<key>Cancel</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>PromptForUserInput</string>
+						<key>Prompt</key>
+						<string>Please enter a reference tag</string>
+						<key>ResultButtonVariable</key>
+						<string>Result Button</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>Reference Tag</string>
+						<key>Variables</key>
+						<array>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Reference</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Text</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>Text</string>
+									<key>VariableConditionType</key>
+									<string>IsEmpty</string>
+									<key>VariableValue</key>
+									<string>value</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!wiki "%Variable%Text%")</string>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!wiki)</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>20)W. Search Wikipedia</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>13</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>790C95A2-2C68-4E2B-86B5-6A0B4693BAF7</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>6912</integer>
+		<key>Name</key>
+		<string>## Brett Terpstra: Generate SearchLink</string>
+		<key>UID</key>
+		<string>0EF6D310-F5CA-4761-B4A6-268636030207</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>37</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
 						<false/>
 						<key>MacroActionType</key>
 						<string>Comment</string>
@@ -208,6 +2089,1114 @@ any !address recognized as a url (no protocol required) will become a site-speci
 				</array>
 				<key>UID</key>
 				<string>DB7DD70B-AA04-4E2B-A599-E9EFF203DE01</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>6912</integer>
+		<key>Name</key>
+		<string>## Brett Terpstra: Generate SearchLink</string>
+		<key>UID</key>
+		<string>0EF6D310-F5CA-4761-B4A6-268636030207</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>37</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array/>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>30)⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯MUSIC⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>DD9D30C7-F70E-4223-BDA0-F31758D9F092</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>6912</integer>
+		<key>Name</key>
+		<string>## Brett Terpstra: Generate SearchLink</string>
+		<key>UID</key>
+		<string>0EF6D310-F5CA-4761-B4A6-268636030207</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>37</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://brettterpstra.com/2012/10/16/searchlink-automated-markdown-linking-improved/&gt;
+
+SearchLink uses various API’s to provide results for specific types of queries. These are denoted by an exclamation mark followed by one of the following keys:
+
+!arguments:
+
+## Software
+
+!mas : search Mac App Store  
+!masd : search Mac App Store, return seller URL  
+!itu : search iTunes App Store  
+!itud : search iTunes App Store, return seller URL  
+!s : software search using Google  
+
+## General
+
+!g : first Google result  
+
+## Terminology  
+
+!wiki : Wikipedia link (Wikipedia API)  
+!def : Dictionary link/fallback to Wikipedia (DDG API)  
+
+## Music  
+
+!isong : iTunes song link  
+!iart : iTunes artist link  
+!ialb : iTunes album link  
+!lsong : Last​.fm song link  
+!lart : Last​.fm artist link
+
+## Site search
+
+any !address recognized as a url (no protocol required) will become a site-specific Google search for the link text (or specified search terms). e.g. [MarkdownEditing](!github.com)
+
+## Examples
+
+* A search for specified text: [Marked](!g "Marked mac app").
+* A simple software search for [Fantastical](!s).
+* A simple google search [neat neat neat](!g)
+* A Last.fm track search [neat neat neat](!lsong "The Damned Neat Neat Neat") (with specified search terms)
+* Mac app store search: [Marked on the MAS](!mas "Marked")
+* Mac App Store search [Marked direct](!masd "Marked") with direct dev site link.
+* iTunes app search: [Boost 2](!itu) 
+* iTunes search, direct dev site link: [Boost direct](!itud "Boost 2")
+* This search: [](!mas "Purple animator") will have its link text filled in with the title of the first result.
+* This is a wikipedia entry for [Sid Vicious](!wiki)
+* This will put the definition of [ambiguous](!def) in the title field of a link to the dictionary entry.
+* iTunes Artist search: [BRMC](!iart "Black Rebel Motorcycle Club")
+* Site specific search: [Keybindings](!brettterpstra.com "Keybinding Madness")
+</string>
+						<key>Title</key>
+						<string>SearchLink</string>
+					</dict>
+					<dict>
+						<key>Buttons</key>
+						<array>
+							<dict>
+								<key>Button</key>
+								<string>OK</string>
+							</dict>
+							<dict>
+								<key>Button</key>
+								<string>Cancel</string>
+								<key>Cancel</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>PromptForUserInput</string>
+						<key>Prompt</key>
+						<string>Please enter a reference tag</string>
+						<key>ResultButtonVariable</key>
+						<string>Result Button</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>Reference Tag</string>
+						<key>Variables</key>
+						<array>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Reference</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Text</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>Text</string>
+									<key>VariableConditionType</key>
+									<string>IsEmpty</string>
+									<key>VariableValue</key>
+									<string>value</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!isong "%Variable%Text%")</string>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!isong)</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>30)T. Search iTunes For Song Title</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>17</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>D6E8A0EF-4AF4-410F-8B6B-4255C744C8C9</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>6912</integer>
+		<key>Name</key>
+		<string>## Brett Terpstra: Generate SearchLink</string>
+		<key>UID</key>
+		<string>0EF6D310-F5CA-4761-B4A6-268636030207</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>37</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://brettterpstra.com/2012/10/16/searchlink-automated-markdown-linking-improved/&gt;
+
+SearchLink uses various API’s to provide results for specific types of queries. These are denoted by an exclamation mark followed by one of the following keys:
+
+!arguments:
+
+## Software
+
+!mas : search Mac App Store  
+!masd : search Mac App Store, return seller URL  
+!itu : search iTunes App Store  
+!itud : search iTunes App Store, return seller URL  
+!s : software search using Google  
+
+## General
+
+!g : first Google result  
+
+## Terminology  
+
+!wiki : Wikipedia link (Wikipedia API)  
+!def : Dictionary link/fallback to Wikipedia (DDG API)  
+
+## Music  
+
+!isong : iTunes song link  
+!iart : iTunes artist link  
+!ialb : iTunes album link  
+!lsong : Last​.fm song link  
+!lart : Last​.fm artist link
+
+## Site search
+
+any !address recognized as a url (no protocol required) will become a site-specific Google search for the link text (or specified search terms). e.g. [MarkdownEditing](!github.com)
+
+## Examples
+
+* A search for specified text: [Marked](!g "Marked mac app").
+* A simple software search for [Fantastical](!s).
+* A simple google search [neat neat neat](!g)
+* A Last.fm track search [neat neat neat](!lsong "The Damned Neat Neat Neat") (with specified search terms)
+* Mac app store search: [Marked on the MAS](!mas "Marked")
+* Mac App Store search [Marked direct](!masd "Marked") with direct dev site link.
+* iTunes app search: [Boost 2](!itu) 
+* iTunes search, direct dev site link: [Boost direct](!itud "Boost 2")
+* This search: [](!mas "Purple animator") will have its link text filled in with the title of the first result.
+* This is a wikipedia entry for [Sid Vicious](!wiki)
+* This will put the definition of [ambiguous](!def) in the title field of a link to the dictionary entry.
+* iTunes Artist search: [BRMC](!iart "Black Rebel Motorcycle Club")
+* Site specific search: [Keybindings](!brettterpstra.com "Keybinding Madness")
+</string>
+						<key>Title</key>
+						<string>SearchLink</string>
+					</dict>
+					<dict>
+						<key>Buttons</key>
+						<array>
+							<dict>
+								<key>Button</key>
+								<string>OK</string>
+							</dict>
+							<dict>
+								<key>Button</key>
+								<string>Cancel</string>
+								<key>Cancel</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>PromptForUserInput</string>
+						<key>Prompt</key>
+						<string>Please enter a reference tag</string>
+						<key>ResultButtonVariable</key>
+						<string>Result Button</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>Reference Tag</string>
+						<key>Variables</key>
+						<array>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Reference</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Text</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>Text</string>
+									<key>VariableConditionType</key>
+									<string>IsEmpty</string>
+									<key>VariableValue</key>
+									<string>value</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!art "%Variable%Text%")</string>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!iart)</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>31)T. Search iTunes For Artist</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>0</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>A712B0F9-6E4F-4177-A09C-D1510C6DC5C0</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>6912</integer>
+		<key>Name</key>
+		<string>## Brett Terpstra: Generate SearchLink</string>
+		<key>UID</key>
+		<string>0EF6D310-F5CA-4761-B4A6-268636030207</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>37</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://brettterpstra.com/2012/10/16/searchlink-automated-markdown-linking-improved/&gt;
+
+SearchLink uses various API’s to provide results for specific types of queries. These are denoted by an exclamation mark followed by one of the following keys:
+
+!arguments:
+
+## Software
+
+!mas : search Mac App Store  
+!masd : search Mac App Store, return seller URL  
+!itu : search iTunes App Store  
+!itud : search iTunes App Store, return seller URL  
+!s : software search using Google  
+
+## General
+
+!g : first Google result  
+
+## Terminology  
+
+!wiki : Wikipedia link (Wikipedia API)  
+!def : Dictionary link/fallback to Wikipedia (DDG API)  
+
+## Music  
+
+!isong : iTunes song link  
+!iart : iTunes artist link  
+!ialb : iTunes album link  
+!lsong : Last​.fm song link  
+!lart : Last​.fm artist link
+
+## Site search
+
+any !address recognized as a url (no protocol required) will become a site-specific Google search for the link text (or specified search terms). e.g. [MarkdownEditing](!github.com)
+
+## Examples
+
+* A search for specified text: [Marked](!g "Marked mac app").
+* A simple software search for [Fantastical](!s).
+* A simple google search [neat neat neat](!g)
+* A Last.fm track search [neat neat neat](!lsong "The Damned Neat Neat Neat") (with specified search terms)
+* Mac app store search: [Marked on the MAS](!mas "Marked")
+* Mac App Store search [Marked direct](!masd "Marked") with direct dev site link.
+* iTunes app search: [Boost 2](!itu) 
+* iTunes search, direct dev site link: [Boost direct](!itud "Boost 2")
+* This search: [](!mas "Purple animator") will have its link text filled in with the title of the first result.
+* This is a wikipedia entry for [Sid Vicious](!wiki)
+* This will put the definition of [ambiguous](!def) in the title field of a link to the dictionary entry.
+* iTunes Artist search: [BRMC](!iart "Black Rebel Motorcycle Club")
+* Site specific search: [Keybindings](!brettterpstra.com "Keybinding Madness")
+</string>
+						<key>Title</key>
+						<string>SearchLink</string>
+					</dict>
+					<dict>
+						<key>Buttons</key>
+						<array>
+							<dict>
+								<key>Button</key>
+								<string>OK</string>
+							</dict>
+							<dict>
+								<key>Button</key>
+								<string>Cancel</string>
+								<key>Cancel</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>PromptForUserInput</string>
+						<key>Prompt</key>
+						<string>Please enter a reference tag</string>
+						<key>ResultButtonVariable</key>
+						<string>Result Button</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>Reference Tag</string>
+						<key>Variables</key>
+						<array>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Reference</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Text</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>Text</string>
+									<key>VariableConditionType</key>
+									<string>IsEmpty</string>
+									<key>VariableValue</key>
+									<string>value</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!alb "%Variable%Text%")</string>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!alb)</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>32)⌘A. Search iTunes For Album</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>0</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>8BB43068-A1E4-43DA-BDA5-05D71E518A53</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>6912</integer>
+		<key>Name</key>
+		<string>## Brett Terpstra: Generate SearchLink</string>
+		<key>UID</key>
+		<string>0EF6D310-F5CA-4761-B4A6-268636030207</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>37</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://brettterpstra.com/2012/10/16/searchlink-automated-markdown-linking-improved/&gt;
+
+SearchLink uses various API’s to provide results for specific types of queries. These are denoted by an exclamation mark followed by one of the following keys:
+
+!arguments:
+
+## Software
+
+!mas : search Mac App Store  
+!masd : search Mac App Store, return seller URL  
+!itu : search iTunes App Store  
+!itud : search iTunes App Store, return seller URL  
+!s : software search using Google  
+
+## General
+
+!g : first Google result  
+
+## Terminology  
+
+!wiki : Wikipedia link (Wikipedia API)  
+!def : Dictionary link/fallback to Wikipedia (DDG API)  
+
+## Music  
+
+!isong : iTunes song link  
+!iart : iTunes artist link  
+!ialb : iTunes album link  
+!lsong : Last​.fm song link  
+!lart : Last​.fm artist link
+
+## Site search
+
+any !address recognized as a url (no protocol required) will become a site-specific Google search for the link text (or specified search terms). e.g. [MarkdownEditing](!github.com)
+
+## Examples
+
+* A search for specified text: [Marked](!g "Marked mac app").
+* A simple software search for [Fantastical](!s).
+* A simple google search [neat neat neat](!g)
+* A Last.fm track search [neat neat neat](!lsong "The Damned Neat Neat Neat") (with specified search terms)
+* Mac app store search: [Marked on the MAS](!mas "Marked")
+* Mac App Store search [Marked direct](!masd "Marked") with direct dev site link.
+* iTunes app search: [Boost 2](!itu) 
+* iTunes search, direct dev site link: [Boost direct](!itud "Boost 2")
+* This search: [](!mas "Purple animator") will have its link text filled in with the title of the first result.
+* This is a wikipedia entry for [Sid Vicious](!wiki)
+* This will put the definition of [ambiguous](!def) in the title field of a link to the dictionary entry.
+* iTunes Artist search: [BRMC](!iart "Black Rebel Motorcycle Club")
+* Site specific search: [Keybindings](!brettterpstra.com "Keybinding Madness")
+</string>
+						<key>Title</key>
+						<string>SearchLink</string>
+					</dict>
+					<dict>
+						<key>Buttons</key>
+						<array>
+							<dict>
+								<key>Button</key>
+								<string>OK</string>
+							</dict>
+							<dict>
+								<key>Button</key>
+								<string>Cancel</string>
+								<key>Cancel</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>PromptForUserInput</string>
+						<key>Prompt</key>
+						<string>Please enter a reference tag</string>
+						<key>ResultButtonVariable</key>
+						<string>Result Button</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>Reference Tag</string>
+						<key>Variables</key>
+						<array>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Reference</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Text</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>Text</string>
+									<key>VariableConditionType</key>
+									<string>IsEmpty</string>
+									<key>VariableValue</key>
+									<string>value</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!lsong "%Variable%Text%")</string>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!lsong)</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>33)L. Search Last.fm For Song Title</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>37</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>2517A7B2-8D78-4210-B85C-6EC80B2252BA</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>6912</integer>
+		<key>Name</key>
+		<string>## Brett Terpstra: Generate SearchLink</string>
+		<key>UID</key>
+		<string>0EF6D310-F5CA-4761-B4A6-268636030207</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>37</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://brettterpstra.com/2012/10/16/searchlink-automated-markdown-linking-improved/&gt;
+
+SearchLink uses various API’s to provide results for specific types of queries. These are denoted by an exclamation mark followed by one of the following keys:
+
+!arguments:
+
+## Software
+
+!mas : search Mac App Store  
+!masd : search Mac App Store, return seller URL  
+!itu : search iTunes App Store  
+!itud : search iTunes App Store, return seller URL  
+!s : software search using Google  
+
+## General
+
+!g : first Google result  
+
+## Terminology  
+
+!wiki : Wikipedia link (Wikipedia API)  
+!def : Dictionary link/fallback to Wikipedia (DDG API)  
+
+## Music  
+
+!isong : iTunes song link  
+!iart : iTunes artist link  
+!ialb : iTunes album link  
+!lsong : Last​.fm song link  
+!lart : Last​.fm artist link
+
+## Site search
+
+any !address recognized as a url (no protocol required) will become a site-specific Google search for the link text (or specified search terms). e.g. [MarkdownEditing](!github.com)
+
+## Examples
+
+* A search for specified text: [Marked](!g "Marked mac app").
+* A simple software search for [Fantastical](!s).
+* A simple google search [neat neat neat](!g)
+* A Last.fm track search [neat neat neat](!lsong "The Damned Neat Neat Neat") (with specified search terms)
+* Mac app store search: [Marked on the MAS](!mas "Marked")
+* Mac App Store search [Marked direct](!masd "Marked") with direct dev site link.
+* iTunes app search: [Boost 2](!itu) 
+* iTunes search, direct dev site link: [Boost direct](!itud "Boost 2")
+* This search: [](!mas "Purple animator") will have its link text filled in with the title of the first result.
+* This is a wikipedia entry for [Sid Vicious](!wiki)
+* This will put the definition of [ambiguous](!def) in the title field of a link to the dictionary entry.
+* iTunes Artist search: [BRMC](!iart "Black Rebel Motorcycle Club")
+* Site specific search: [Keybindings](!brettterpstra.com "Keybinding Madness")
+</string>
+						<key>Title</key>
+						<string>SearchLink</string>
+					</dict>
+					<dict>
+						<key>Buttons</key>
+						<array>
+							<dict>
+								<key>Button</key>
+								<string>OK</string>
+							</dict>
+							<dict>
+								<key>Button</key>
+								<string>Cancel</string>
+								<key>Cancel</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>PromptForUserInput</string>
+						<key>Prompt</key>
+						<string>Please enter a reference tag</string>
+						<key>ResultButtonVariable</key>
+						<string>Result Button</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>Reference Tag</string>
+						<key>Variables</key>
+						<array>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Reference</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Text</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>Text</string>
+									<key>VariableConditionType</key>
+									<string>IsEmpty</string>
+									<key>VariableValue</key>
+									<string>value</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!lart "%Variable%Text%")</string>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByPasting</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Paste</key>
+								<true/>
+								<key>Text</key>
+								<string>[%Variable%Reference%](!lart)</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>34)⌘L. Search Last.fm For Artist</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>37</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>1FF1F143-ED64-41DE-84CD-FA5F15B9C455</string>
 			</dict>
 		</array>
 		<key>Modifiers</key>

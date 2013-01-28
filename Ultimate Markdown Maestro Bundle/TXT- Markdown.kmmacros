@@ -152,7 +152,7 @@
 								</dict>
 							</array>
 							<key>ConditionListMatch</key>
-							<string>All</string>
+							<string>Any</string>
 						</dict>
 						<key>ElseActions</key>
 						<array/>
@@ -1367,7 +1367,7 @@
 						<key>IsActive</key>
 						<true/>
 						<key>IsDisclosed</key>
-						<true/>
+						<false/>
 						<key>MacroActionType</key>
 						<string>Comment</string>
 						<key>Text</key>
@@ -1427,7 +1427,7 @@
 						<key>IsActive</key>
 						<true/>
 						<key>IsDisclosed</key>
-						<true/>
+						<false/>
 						<key>MacroActionType</key>
 						<string>IfThenElse</string>
 						<key>ThenActions</key>
