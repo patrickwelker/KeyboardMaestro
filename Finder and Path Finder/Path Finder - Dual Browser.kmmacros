@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>The If condition finds out in which Finder you are and triggers the command.
+
+- Toggles the sidebar in Finder on/off.
+- Toggles the Dual Browser mode in Path Finder on/off.</string>
+						<key>Title</key>
+						<string>By Patrick Welker</string>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>Application</key>
+									<dict>
+										<key>BundleIdentifier</key>
+										<string>com.cocoatech.PathFinder</string>
+										<key>Creator</key>
+										<integer>1346790482</integer>
+										<key>FileType</key>
+										<integer>1095782476</integer>
+										<key>Name</key>
+										<string>Path Finder</string>
+										<key>NewFile</key>
+										<string>/Applications/Path Finder.app</string>
+									</dict>
+									<key>ApplicationConditionType</key>
+									<string>Active</string>
+									<key>ConditionType</key>
+									<string>Application</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>KeyCode</key>
+								<integer>1</integer>
+								<key>MacroActionType</key>
+								<string>SimulateKeystroke</string>
+								<key>Modifiers</key>
+								<integer>2304</integer>
+								<key>ReleaseAll</key>
+								<false/>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>SelectMenuItem</string>
+								<key>Menu</key>
+								<array>
+									<string>View</string>
+									<string>Dual Browser</string>
+								</array>
+								<key>StopOnFailure</key>
+								<true/>
+								<key>TargetApplication</key>
+								<dict>
+									<key>BundleIdentifier</key>
+									<string>com.cocoatech.PathFinder</string>
+									<key>Creator</key>
+									<integer>1346790482</integer>
+									<key>FileType</key>
+									<integer>1095782476</integer>
+									<key>Name</key>
+									<string>Path Finder</string>
+									<key>NewFile</key>
+									<string>/Applications/Path Finder.app</string>
+								</dict>
+								<key>TargetingType</key>
+								<string>Specific</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>Path Finder - Dual Browser</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>1</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>2304</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>142CAF1B-BCEC-40CE-997D-9FBD25ABBADD</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string># RocketINK</string>
+		<key>UID</key>
+		<string>EBC162A5-A198-4593-A007-5B2F7E9849DB</string>
+	</dict>
+</array>
+</plist>

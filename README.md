@@ -34,6 +34,10 @@ Customize the macro by using the names of your own OmniFocus perspectives and ho
 
 This is a collection of all the scripts I use with Keyboard Maestro and OmniFocus. The people who made these scripts are collected in a reference list in [this blog post](http://rocketink.net/2013/01/keyboard-maestro-as-omnifocus%27s-little-helper.html).
 
+## [Finder And Path Finder](http://rocketink.net/uploads/2013/02/bridging-the-gap-between-finder-and-path-finder.html)
+
+This is my setup for transfering some of Path Finder functions into Finder. In addition there are some Path Finder only goodies.
+
 ## [Sync Keyboard Maestro](http://rocketink.net/2013/01/keyboard-maestro-sync.html)
 
 A tutorial on how-to automatically sync Keyboard Maestro macros with the help of Hazel and Dropbox.

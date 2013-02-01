@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>Mimics Path Finders option to copy and brings it to the Finder.
+
+The If condition finds out in which Finder you are and triggers the command.</string>
+						<key>Title</key>
+						<string>By Patrick Welker</string>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>Application</key>
+									<dict>
+										<key>BundleIdentifier</key>
+										<string>com.apple.finder</string>
+										<key>Creator</key>
+										<integer>1296122707</integer>
+										<key>FileType</key>
+										<integer>1179534418</integer>
+										<key>Name</key>
+										<string>Finder</string>
+										<key>NewFile</key>
+										<string>/System/Library/CoreServices/Finder.app</string>
+									</dict>
+									<key>ApplicationConditionType</key>
+									<string>Active</string>
+									<key>ConditionType</key>
+									<string>Application</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>SelectMenuItem</string>
+								<key>Menu</key>
+								<array>
+									<string>Edit</string>
+									<string>Copy Path</string>
+									<string>URL</string>
+								</array>
+								<key>StopOnFailure</key>
+								<true/>
+								<key>TargetApplication</key>
+								<dict>
+									<key>BundleIdentifier</key>
+									<string>com.cocoatech.PathFinder</string>
+									<key>Creator</key>
+									<integer>1346790482</integer>
+									<key>FileType</key>
+									<integer>1095782476</integer>
+									<key>Name</key>
+									<string>Path Finder</string>
+									<key>NewFile</key>
+									<string>/Applications/Path Finder.app</string>
+								</dict>
+								<key>TargetingType</key>
+								<string>Specific</string>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>DisplayKind</key>
+								<string>None</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>ExecuteAppleScript</string>
+								<key>Path</key>
+								<string></string>
+								<key>Text</key>
+								<string>set theOutput to ""
+
+-- Obtain Finder selection and store it in variable "sel".
+tell application "Finder" to set sel to get selection as alias list
+
+repeat with x in sel
+
+-- Convert to alias, then determine its file URL and store that in variable "myFileUrl"
+tell application "System Events" to set myFileUrl to URL of x
+
+if theOutput = "" then
+    set theOutput to myFileUrl
+else
+    set theOutput to theOutput &amp; return &amp; myFileUrl
+end if
+
+end repeat
+
+set the clipboard to theOutput</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+								<key>Variable</key>
+								<string>Variable</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>Finder: Copy Path [URL]</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>B17DFD3F-ACAA-48CE-A92F-509E4ED2BBBD</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string># RocketINK</string>
+		<key>UID</key>
+		<string>EBC162A5-A198-4593-A007-5B2F7E9849DB</string>
+	</dict>
+</array>
+</plist>

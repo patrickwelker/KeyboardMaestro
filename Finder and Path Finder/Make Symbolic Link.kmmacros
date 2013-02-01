@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>Mimics Path Finders option to create a symbolic link and brings it to the Finder.
+
+The If condition finds out in which Finder you are and triggers the command.
+
+Dependency: SymbolicLinker Service by Nick Zitzmann
+
+Download it here: http://seiryu.home.comcast.net/~seiryu/symboliclinker.html</string>
+						<key>Title</key>
+						<string>By Patrick Welker</string>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>Application</key>
+									<dict>
+										<key>BundleIdentifier</key>
+										<string>com.apple.finder</string>
+										<key>Creator</key>
+										<integer>1296122707</integer>
+										<key>FileType</key>
+										<integer>1179534418</integer>
+										<key>Name</key>
+										<string>Finder</string>
+										<key>NewFile</key>
+										<string>/System/Library/CoreServices/Finder.app</string>
+									</dict>
+									<key>ApplicationConditionType</key>
+									<string>Active</string>
+									<key>ConditionType</key>
+									<string>Application</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>SelectMenuItem</string>
+								<key>Menu</key>
+								<array>
+									<string>File</string>
+									<string>Make Symbolic Link</string>
+								</array>
+								<key>StopOnFailure</key>
+								<true/>
+								<key>TargetApplication</key>
+								<dict>
+									<key>BundleIdentifier</key>
+									<string>com.cocoatech.PathFinder</string>
+									<key>Creator</key>
+									<integer>1346790482</integer>
+									<key>FileType</key>
+									<integer>1095782476</integer>
+									<key>Name</key>
+									<string>Path Finder</string>
+									<key>NewFile</key>
+									<string>/Applications/Path Finder.app</string>
+								</dict>
+								<key>TargetingType</key>
+								<string>Specific</string>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>SelectMenuItem</string>
+								<key>Menu</key>
+								<array>
+									<string>APPLICATION</string>
+									<string>Services</string>
+									<string>Make Symbolic Link</string>
+								</array>
+								<key>StopOnFailure</key>
+								<true/>
+								<key>TargetingType</key>
+								<string>Front</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>Make Symbolic Link</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>37</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>768</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>C146E9A3-CE5A-40D9-987A-3419F82A7E6A</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string># RocketINK</string>
+		<key>UID</key>
+		<string>EBC162A5-A198-4593-A007-5B2F7E9849DB</string>
+	</dict>
+</array>
+</plist>
