@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>20</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>See: http://rocketink.net/2012/02/----.html
+
+You have to setup shortcuts in the applications you use and match the shortcuts to the according Keyboard Maestro "Type Keystroke" action.
+
+Set these up as a palette and drop the "--not-4-the-palette--" from the GitHub repo somewhere else.</string>
+						<key>Title</key>
+						<string>About the "Screen Shots Palette" by Patrick Welker</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<false/>
+				<key>Name</key>
+				<string>00)   ReadMe</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>5F605A28-EE24-4AC6-B966-72DA7968A455</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>768</integer>
+		<key>Name</key>
+		<string># RocketINK - Screen Shots</string>
+		<key>UID</key>
+		<string>BD006564-F62C-4D94-9A5B-1CF57EEF31AA</string>
+	</dict>
+</array>
+</plist>

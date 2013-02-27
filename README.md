@@ -47,3 +47,11 @@ A tutorial on how-to automatically sync Keyboard Maestro macros with the help of
 The content of this folder can function as a template for organizing your Keyboard Maestro library – especially when it comes to Markdown.
 
 To give you a ruff idea what it's about you can watch **[this video I made](http://youtu.be/cS7HQhJlKEM)** or simply [read the article](http://rocketink.net/2013/01/markdown-maestro-guide.html).
+
+## [Screen Shots](http://rocketink.net/2013/02/screenshots-and-image-manipulation.html)
+
+A palette for making different sort of screen shots. [The article](http://rocketink.net/2013/02/screenshots-and-image-manipulation.html) explains everthing in detail.
+
+## System » [Caffeinate](http://rocketink.net/2013/02/sleep_deprivation_for_your_mac.html)
+
+A simple replacement for Caffeine with Keyboard Maestro.

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>20</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Application</key>
+						<dict/>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDefaultApplication</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Open1File</string>
+						<key>NewFile</key>
+						<string>/Applications/Screenshot Helper.app</string>
+						<key>Path</key>
+						<string>/Applications/Screenshot Helper.app</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>14)H. Screenshot Helper</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>4</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>B733AD1A-77AC-4E43-AC1F-3EC4B3B69D1D</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>768</integer>
+		<key>Name</key>
+		<string># RocketINK - Screen Shots</string>
+		<key>UID</key>
+		<string>BD006564-F62C-4D94-9A5B-1CF57EEF31AA</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>20</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array/>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>10)⎯⎯⎯⎯⎯⎯BROWSE SHOTS⎯⎯⎯⎯⎯⎯</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>F77F205D-73B5-4DA8-A453-201DCB1F5E02</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>768</integer>
+		<key>Name</key>
+		<string># RocketINK - Screen Shots</string>
+		<key>UID</key>
+		<string>BD006564-F62C-4D94-9A5B-1CF57EEF31AA</string>
+	</dict>
+</array>
+</plist>

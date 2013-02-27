@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>20</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Application</key>
+						<dict>
+							<key>Creator</key>
+							<integer>1685089396</integer>
+							<key>FileType</key>
+							<integer>1095782476</integer>
+							<key>Name</key>
+							<string>Quick Look Droplet</string>
+							<key>NewFile</key>
+							<string>/Applications/Quick Look Droplet.app</string>
+						</dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsCurrentApplication</key>
+						<false/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>OpenFinderSelection</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>13)F. Float Selected Image</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>3</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>3F0CE64F-5889-47CE-BFEF-4F821093B475</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>768</integer>
+		<key>Name</key>
+		<string># RocketINK - Screen Shots</string>
+		<key>UID</key>
+		<string>BD006564-F62C-4D94-9A5B-1CF57EEF31AA</string>
+	</dict>
+</array>
+</plist>

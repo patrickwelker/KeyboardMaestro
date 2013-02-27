@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>IsActive</key>
+		<true/>
+		<key>KeyCode</key>
+		<integer>20</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DestinationNamedClipboardRedundantDisplayName</key>
+						<string>Screenshot</string>
+						<key>DestinationNamedClipboardUID</key>
+						<string>70713E15-560D-43B9-95F8-244F335D4E7A</string>
+						<key>DestinationUseNamedClipboard</key>
+						<true/>
+						<key>IncludeShadows</key>
+						<false/>
+						<key>Index</key>
+						<string>2</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ScreenCapture</string>
+						<key>Source</key>
+						<string>WindowFront</string>
+						<key>WindowName</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>Append</key>
+						<false/>
+						<key>Destination</key>
+						<string>~/Desktop/Screen Shot %ICUDateTime%yyyy-MM-dd 'at' h.mm.ss a%.png</string>
+						<key>Encoding</key>
+						<string>UTF8</string>
+						<key>Format</key>
+						<string>PNG</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>WriteFile</string>
+						<key>Name</key>
+						<string>70713E15-560D-43B9-95F8-244F335D4E7A</string>
+						<key>RedundandDisplayName</key>
+						<string>Screenshot</string>
+						<key>Source</key>
+						<string>NamedClipboard</string>
+						<key>Text</key>
+						<string></string>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<false/>
+				<key>Name</key>
+				<string>x. Screencapture a window (with Keyboard Maestro)</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>85891F69-07ED-40CE-A754-E079B9CF0A22</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>768</integer>
+		<key>Name</key>
+		<string># RocketINK - Screen Shots</string>
+		<key>UID</key>
+		<string>BD006564-F62C-4D94-9A5B-1CF57EEF31AA</string>
+	</dict>
+</array>
+</plist>
