@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://brettterpstra.com/2013/01/15/clip-text-file-a-handy-dumb-service/&gt;
+
+Clips the content of any text file to the clipboard.</string>
+						<key>Title</key>
+						<string>Clip Text File</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>Clip Text File</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>Clip Text File</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>4D872B03-94DB-4488-8E93-71CB9F8F29B3</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra</string>
+		<key>UID</key>
+		<string>47DB4B2A-A29A-439E-AEC6-84AB56252161</string>
+	</dict>
+</array>
+</plist>

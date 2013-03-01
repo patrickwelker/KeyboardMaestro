@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://brettterpstra.com/2012/01/24/a-service-for-writing-multimarkdown-footnotes-inline/&gt;
+
+## Syntax
+
+This is the regular text(*This is the footnote*), and you can drop the footnote in at any point.
+
+Multi-line footnotes need to begin at the end of a line of text, and just use double-newlines to separate paragraphs within the footnote, e.g.:
+
+    ...the end of the paragraph. (*This is a footnote
+
+    which is going to span
+
+    more than one line*)</string>
+						<key>Title</key>
+						<string>Convert Inline Footnotes</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>Convert Inline Footnotes</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>Convert Inline Footnotes</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>C18B4C29-5056-4A45-9811-789FDBBBFE7E</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra</string>
+		<key>UID</key>
+		<string>47DB4B2A-A29A-439E-AEC6-84AB56252161</string>
+	</dict>
+</array>
+</plist>

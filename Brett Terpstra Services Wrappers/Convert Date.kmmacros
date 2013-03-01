@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://brettterpstra.com/2012/05/05/natural-language-date-service-update/&gt;
+
+A System Service which takes selected text and parses it into a standard date format, using keywords at the beginning to define which format to use.
+
+Examples:
+
+date +5  
+long +21  
+short tomorrow 2pm  
+date thurs 3:15pm  </string>
+						<key>Title</key>
+						<string>
+archives
+topics
+projects
+contact
+donate
+
+
+Stickermule - Awesome custom stickers. Free shipping.ads via Carbon
+
+Hosting: macminicolo.net
+|
+Read and Trust
+« Web excursions: April 20, 2012 - April 24, 2012My ultimate Markdown editor wishlist »
+Natural Language Date Service</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>Convert Date</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>Convert Date</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>039D47CB-AF1D-475E-9B2E-0D14FBA4AAA5</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra</string>
+		<key>UID</key>
+		<string>47DB4B2A-A29A-439E-AEC6-84AB56252161</string>
+	</dict>
+</array>
+</plist>

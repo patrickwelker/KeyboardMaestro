@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>http://brettterpstra.com/sparkup-system-service-html-shorthand-everywhere/
+
+FROM:
+div.prettyneat#really&gt;ul&gt;li.item$*2&lt;ol&gt;li*2{ordered list item}+p.last
+
+TO:
+&lt;div class="prettyneat" id="really"&gt;
+    &lt;ul&gt;
+        &lt;li class="item1"&gt;&lt;/li&gt;
+        &lt;li class="item2"&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;ol&gt;
+        &lt;li&gt;ordered list item&lt;/li&gt;
+        &lt;li&gt;ordered list item&lt;/li&gt;
+        &lt;p class="last"&gt;&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;
+
+Note that, unlike Zen Coding, you can use “&lt;” to traverse back up the tree. You can also use linebreaks and indentations on longer strings if it helps you keep things straight. Useful when you’re laying out an entire document structure in one string:
+
+div.prettyneat#really&gt;
+p.first{content}
++p*2
++ul&gt;
+    li.item$*6&gt;a[href=#]
+&lt;&lt;ol&gt;
+    li*3{ordered list item}
++p.last
+
+Also, “html:5″ will give you a full HTML5 document with UTF-8 meta, head and body, and additional elements appended with “&gt;” will go inside the body section. Very handy to have when you’re outside of your usual HTML editor.</string>
+						<key>Title</key>
+						<string>Sparkup</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>Sparkup</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>Sparkup</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>D6281A7E-3A33-43C9-A045-35C377368EC4</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra</string>
+		<key>UID</key>
+		<string>47DB4B2A-A29A-439E-AEC6-84AB56252161</string>
+	</dict>
+</array>
+</plist>

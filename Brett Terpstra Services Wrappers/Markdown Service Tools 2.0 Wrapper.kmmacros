@@ -1,0 +1,1606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>Markdown Service Tools is a Service for Mac OS X from Brett Terpstra.
+
+This macro palette is just a wrapper for all the service. Feel free to customize the shortcuts to your liking.
+
+You will need to have the services installed for these macros to work.
+
+You can find the latest version of Markdown Service Tools and a detailed explanation here: &lt;http://brettterpstra.com/projects/markdown-service-tools/&gt;
+
+I encourage you to follow his blog for getting updates on this service and on other awesome stuff.
+
+Have fun writing in Markdown.
+- Patrick Welker (rocketink.net)</string>
+						<key>Title</key>
+						<string>About the "Markdown Service Tools"</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<false/>
+				<key>Name</key>
+				<string>00)   ReadMe</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>413C54EA-E460-4E07-9842-F9F343A94384</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>Code Block indents everything by one tab.</string>
+						<key>Title</key>
+						<string>md - Code - Make Code Block</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Code - Make Code Block</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Code - Make Code Block</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>C29C85D7-E080-4010-8243-73F86A8EDE30</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>This service does the same thing as “MultiMarkdown to HTML,” but leaves the selection alone and copies the resulting HTML directly to the clipboard.
+
+Suggested key bindings: Command-Shift-Option-C</string>
+						<key>Title</key>
+						<string>Convert Indents to Quote Level</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Convert - HTML to Clipboard</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Convert - HTML to Clipboard</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>92F28522-5DA0-4A46-8485-96C028B13101</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>Converts HTML to Markdown</string>
+						<key>Title</key>
+						<string>Convert HTML to Markdown</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Convert - HTML to Markdown</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Convert - HTML to Markdown</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>5F4F27AB-7694-4869-A4B8-81208121A32D</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>Processes the selected text through Markdown and SmartyPants to generate clean, typographically correct HTML. The selected text is replaced with the final HTML, but if you want both you can select it again, copy it (Command-C) and then Undo (Command-Z) to get the original text back. Markdown and SmartyPants are bundled in this Service, so no external installation is required.
+
+Suggested key bindings: None, run it from the Services menu
+</string>
+						<key>Title</key>
+						<string>MultiMarkdown to HTML</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Convert - MultiMarkdown to HTML</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Convert - MultiMarkdown to HTML</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>658B1F27-01EA-4833-B836-731BD1F0FEDA</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>These simply wrap selected text in Markdown emphasis syntax. * for italics, ** for bold.</string>
+						<key>Title</key>
+						<string>Bold</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Emphasis - Bold</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Emphasis - Bold</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>F7AAC958-C9CF-4AE8-BCF5-4303D84AF357</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>These simply wrap selected text in Markdown emphasis syntax. * for italics, ** for bold.</string>
+						<key>Title</key>
+						<string>Italics</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Emphasis - Italics</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Emphasis - Italics</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>2FCA932A-4952-4366-BF67-3FB1E4AEFB45</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>Indent selection by four spaces</string>
+						<key>Title</key>
+						<string>Indent</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Indentation - Indent</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Indentation - Indent</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>E7B7C008-4263-47DE-9999-1F339D0B7D61</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>Outdent Service preserves sub-indentation, run it multiple times to outdent everything to the left.</string>
+						<key>Title</key>
+						<string>Outdent</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Indentation - Outdent</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Indentation - Outdent</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>C7EA3049-01B6-4B2E-8B0B-30EA0366B5DF</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>This Service takes the selected text and runs an immediate web search for it. The first returned link is inserted with inline link syntax. It works well for unique words (application names, famous people, unusual words). It will often return dictionary or Wikipedia links for such phrases. You can also add words like “wiki” or “definition” to the selected text to improve the results, and then delete the extra words after linking.
+Suggested key bindings: Control-Option-L
+</string>
+						<key>Title</key>
+						<string>Auto-link web search</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Links - Auto-link web search</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Links - Auto-link web search</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>1FC170CC-5C3E-4382-930A-4B2D8AF9EE34</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>This Service takes the selected text and will return a Wikipedia links for the phrase. 
+</string>
+						<key>Title</key>
+						<string>Auto-link Wikipedia</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Links - Auto-link Wikipedia</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Links - Auto-link Wikipedia</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>F27F163E-030D-40C1-B8A4-CB15BF1D9965</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>These Services will collect all of the tabs in the foreground Safari or Chrome window (respectively), and generate a reference list in the same fashion as Link List From Clipboard. These Services are only available when no text is selected.
+
+Suggested key bindings: None, run it from the Services menu
+</string>
+						<key>Title</key>
+						<string>Links From Chrome/Safari Tabs</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Links - Chrome Tabs</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Links - Chrome Tabs</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>B541B9CB-3DE7-4278-9961-17BB06859C66</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>Copy text containing links to the clipboard (in any format, even embedded within other text) and this Service will find all of the links and generate a “reference-style” list of the urls, with titles you can then refer to in your document using [link text][title] syntax. It creates short titles based on the domain of the url, and adds incrementing numbers to duplicate titles to differentiate. This Service is only available when no text is selected.
+
+Suggested key bindings: Control-Option-V, or run it from the Services menu</string>
+						<key>Title</key>
+						<string>Link List From Clipboard</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Links - Clipboard</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Links - Clipboard</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>32636FFD-FDF7-4E12-AE84-78E616DBE322</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>These Services will change all Inline Links to a (numbered) reference style link list OR a reference list back to inline links.
+</string>
+						<key>Title</key>
+						<string>md - Links - Flip Link Style</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Links - Flip Link Style</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Links - Flip Link Style</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>2D4B93BF-FEAA-4852-91D9-45C87075E2AC</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>This will surround the selected text with inline link syntax, and if there’s a single url in the clipboard, will link it automatically. Otherwise, it will create a shell ([link text]()) with an empty parenthesis pair for you to paste a url into.
+
+Suggested key bindings: Command-Shift-L</string>
+						<key>Title</key>
+						<string>Links Selection</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Links - New Link</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Links - New Link</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>EE525906-B218-4507-BE50-A4C2C08FBB22</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>These Services will collect all of the tabs in the foreground Safari or Chrome window (respectively), and generate a reference list in the same fashion as Link List From Clipboard. These Services are only available when no text is selected.
+
+Suggested key bindings: None, run it from the Services menu
+</string>
+						<key>Title</key>
+						<string>Links From Chrome/Safari Tabs</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Links - Safari Tabs</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<false/>
+				<key>Name</key>
+				<string>md - Links - Safari Tabs</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>ACFC6263-0F64-4166-8CD9-C067B18C10CF</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>This will search your selection for urls that aren’t currently part of an HTML or Markdown link and surround them with angle brackets (&lt;&gt;). This makes the URL itself a hyperlink when converting to HTML or other formats.</string>
+						<key>Title</key>
+						<string>md - Links - Self-Link URLs</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Links - Self-Link URLs</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Links - Self-Link URLs</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>E082A7F2-EC9C-4299-BBDE-A1796656A8F3</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>Select an entire Markdown document with inline links (or a mix of inline and reference links) and run this service to have your links replaced with reference style ([link text][title]) and the references placed at the end of the document. Existing references will be preserved, and titles for new references will be automatically generated based on the domain name.</string>
+						<key>Title</key>
+						<string>md - Links - To References</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Links - To References</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Links - To References</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>C7263FAA-AA2A-429B-8B7A-FCF38B0E5C8E</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>These two commands create and clean up bulleted and ordered lists. They will remove any current list characters at the beginning of each line, compress blank lines in the selection, fix minor indentation mistakes while maintaining the original structure of the list, and properly increment the leading characters of ordered lists. Just select multiple lines and run one of the Services.</string>
+						<key>Title</key>
+						<string>md - Lists - Bullet List</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Lists - Bullet List</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Lists - Bullet List</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>5BE13432-D758-4EF6-8633-73BBBFDEF92B</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>Fixes numerical order and indentation in MultiMarkdown lists.</string>
+						<key>Title</key>
+						<string>md - Lists - Fix Numbered List</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Lists - Fix Numbered List</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Lists - Fix Numbered List</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>82AE9043-D7A7-4224-B155-E3434136AAB4</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>These two commands create and clean up bulleted and ordered lists. They will remove any current list characters at the beginning of each line, compress blank lines in the selection, fix minor indentation mistakes while maintaining the original structure of the list, and properly increment the leading characters of ordered lists. Just select multiple lines and run one of the Services.</string>
+						<key>Title</key>
+						<string>Ordered List</string>
+					</dict>
+					<dict>
+						<key>Count</key>
+						<integer>1</integer>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>37F7A40A-D0B3-4235-8B83-8B5785A086B5</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Lists - Numbered List</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Lists - Numbered List</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>E16ADC04-0F7D-4F1C-8F42-B553DAAA0B9E</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>This Service simply prepends a “&gt;” to each line in the selection which contains text. Indentation is preserved as-is. To use indentation to define quote levels, see the “Convert Indents to Quote Level” service.</string>
+						<key>Title</key>
+						<string>Blockquote Selection</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Paragraphs - Blockquote</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Paragraphs - Blockquote</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>8474A506-8E3D-4172-9BE1-C59E193FA88E</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>By default, Markdown removes line breaks between consecutive lines and turns them into a single paragraph. To preserve hard line breaks within paragraphs, this service will add two spaces to the end of each line which is followed immediately by a non-blank line. This creates &lt;br&gt; tags when converted and preserves your line breaks.</string>
+						<key>Title</key>
+						<string>Preserve line breaks</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Paragraphs - Preserve Line Breaks</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Paragraphs - Preserve Line Breaks</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>245BACE0-B886-4EE5-B401-4356CFA0CDF6</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>If your source text contains hard wrapping (lines are broken at a certain character width), this Service will reassemble them into continuous lines. It ignores indented blocks of text, and assumes single hyphens at the very end of a line are to be removed and the text preceding it prepended to the next word.</string>
+						<key>Title</key>
+						<string>md - Paragraphs - Unwrap</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Paragraphs - Unwrap</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Paragraphs - Unwrap</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>E51FA8F9-4BBD-423C-ADE0-C72F1E19195C</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>Based on the perl script by Fletcher Penney, this Service will take MultiMarkdown-format tables and clean them up to be readable in plain text.</string>
+						<key>Title</key>
+						<string>Cleanup Tables</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Tables - Cleanup</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Tables - Cleanup</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>86E6D50B-9575-446A-A4D8-50F15D625CD4</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>Simply wraps the selected text in angle brackets, which comes in handy more often than you’d think.</string>
+						<key>Title</key>
+						<string>Wrap Angle Brackets</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Wrap - Angle Brackets</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Wrap - Angle Brackets</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>20DBAB79-38B0-4E12-82A2-4F80D5EE02E4</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>Simply wraps the selected text in square brackets or parenthesis, which comes in handy more often than you’d think.
+
+Suggested key bindings: Control-Shift-[ (square brackets) and Control-Shift-9 (parenthesis)
+</string>
+						<key>Title</key>
+						<string>Wrap Parenthesis</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Wrap - Parenthesis</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Wrap - Parenthesis</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>E53A2AAE-3DB6-4C25-8649-D4E73C172030</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>Simply wraps the selected text in square brackets or parenthesis, which comes in handy more often than you’d think.
+
+Suggested key bindings: Control-Shift-[ (square brackets) and Control-Shift-9 (parenthesis)
+</string>
+						<key>Title</key>
+						<string>Wrap Square Brackets</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>md - Wrap - Square Brackets</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>md - Wrap - Square Brackets</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>93A498D1-0A20-4796-A93A-B42A0B6BCAB7</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra: Markdown Service Tools</string>
+		<key>UID</key>
+		<string>F5EC6669-A6C1-4DB6-A71D-53FD029FFDDE</string>
+	</dict>
+</array>
+</plist>

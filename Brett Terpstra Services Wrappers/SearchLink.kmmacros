@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>&lt;http://brettterpstra.com/2012/10/16/searchlink-automated-markdown-linking-improved/&gt;
+
+SearchLink uses various API’s to provide results for specific types of queries. These are denoted by an exclamation mark followed by one of the following keys:
+
+!arguments:
+
+## Software
+
+!mas : search Mac App Store  
+!masd : search Mac App Store, return seller URL  
+!itu : search iTunes App Store  
+!itud : search iTunes App Store, return seller URL  
+!s : software search using Google  
+
+## General
+
+!g : first Google result  
+
+## Terminology  
+
+!wiki : Wikipedia link (Wikipedia API)  
+!def : Dictionary link/fallback to Wikipedia (DDG API)  
+
+## Music  
+
+!isong : iTunes song link  
+!iart : iTunes artist link  
+!ialb : iTunes album link  
+!lsong : Last​.fm song link  
+!lart : Last​.fm artist link
+
+## Site search
+
+any !address recognized as a url (no protocol required) will become a site-specific Google search for the link text (or specified search terms). e.g. [MarkdownEditing](!github.com)
+
+## Examples
+
+* A search for specified text: [Marked](!g "Marked mac app").
+* A simple software search for [Fantastical](!s).
+* A simple google search [neat neat neat](!g)
+* A Last.fm track search [neat neat neat](!lsong "The Damned Neat Neat Neat") (with specified search terms)
+* Mac app store search: [Marked on the MAS](!mas "Marked")
+* Mac App Store search [Marked direct](!masd "Marked") with direct dev site link.
+* iTunes app search: [Boost 2](!itu) 
+* iTunes search, direct dev site link: [Boost direct](!itud "Boost 2")
+* This search: [](!mas "Purple animator") will have its link text filled in with the title of the first result.
+* This is a wikipedia entry for [Sid Vicious](!wiki)
+* This will put the definition of [ambiguous](!def) in the title field of a link to the dictionary entry.
+* iTunes Artist search: [BRMC](!iart "Black Rebel Motorcycle Club")
+* Site specific search: [Keybindings](!brettterpstra.com "Keybinding Madness")
+</string>
+						<key>Title</key>
+						<string>SearchLink</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>APPLICATION</string>
+							<string>Services</string>
+							<string>SearchLink</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>SearchLink</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>02563823-B2DE-4AE4-ADA3-AA0BD0817431</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra</string>
+		<key>UID</key>
+		<string>47DB4B2A-A29A-439E-AEC6-84AB56252161</string>
+	</dict>
+</array>
+</plist>
