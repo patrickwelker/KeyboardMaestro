@@ -12,6 +12,12 @@ The point of have palettes for bookmarklets is to:
 - use less extensions and save ressources 
 - have custom shortcuts to all bookmarklets
 
+## [Brett Terpstra Services Wrappers](http://rocketink.net/2013/03/brett-terpstra-services-wrappers.html)
+
+For more information about the Markdown Service Tools visit [the project site](http://brettterpstra.com/projects/markdown-service-tools/)[^fn1] and to get all the details on how the SearchLink Generator works visit [my older post](http://rocketink.net/2013/01/markdown-maestro-guide.html).
+
+If you enjoy Brett's tools then you might [consider a donation](http://brettterpstra.com/donate/).
+
 ## [nvALT](http://rocketink.net/2013/01/my-nvalt-setup.html)
 
 This folder contains my remapped shortcuts and an editor palette to open nvALT notes in the text editor of you choice.
@@ -38,20 +44,20 @@ This is a collection of all the scripts I use with Keyboard Maestro and OmniFocu
 
 This is my setup for transfering some of Path Finder functions into Finder. In addition there are some Path Finder only goodies.
 
+## [Screen Shots](http://rocketink.net/2013/02/screenshots-and-image-manipulation.html)
+
+A palette for making different sort of screen shots. [The article](http://rocketink.net/2013/02/screenshots-and-image-manipulation.html) explains everthing in detail.
+
 ## [Sync Keyboard Maestro](http://rocketink.net/2013/01/keyboard-maestro-sync.html)
 
 A tutorial on how-to automatically sync Keyboard Maestro macros with the help of Hazel and Dropbox.
+
+## System » [Caffeinate](http://rocketink.net/2013/02/sleep_deprivation_for_your_mac.html)
+
+A simple replacement for Caffeine with Keyboard Maestro.
 
 ## [Ultimate Markdown Maestro](http://rocketink.net/2013/01/markdown-maestro-guide.html)
 
 The content of this folder can function as a template for organizing your Keyboard Maestro library – especially when it comes to Markdown.
 
 To give you a ruff idea what it's about you can watch **[this video I made](http://youtu.be/cS7HQhJlKEM)** or simply [read the article](http://rocketink.net/2013/01/markdown-maestro-guide.html).
-
-## [Screen Shots](http://rocketink.net/2013/02/screenshots-and-image-manipulation.html)
-
-A palette for making different sort of screen shots. [The article](http://rocketink.net/2013/02/screenshots-and-image-manipulation.html) explains everthing in detail.
-
-## System » [Caffeinate](http://rocketink.net/2013/02/sleep_deprivation_for_your_mac.html)
-
-A simple replacement for Caffeine with Keyboard Maestro.
