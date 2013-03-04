@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>Description by Patrick Welker (rocketink.net):
+
+All these macros are Services for Mac OS X from Brett Terpstra.
+
+These macros are just a wrapper for Brett's services. Feel free to customize the shortcuts to your liking.
+
+You will need to have the services installed for these macros to work.
+
+You can find the latest version of them here: &lt;http://brettterpstra.com/projects/&gt;
+
+For a detailed explanation visit this post from Brett's: &lt;http://brettterpstra.com/2012/10/16/searchlink-automated-markdown-linking-improved/&gt;
+
+I encourage you to follow his blog for getting updates on this service and on other awesome stuff.
+
+Have fun with these Service wrappers.
+- Patrick Welker (rocketink.net)</string>
+						<key>Title</key>
+						<string>About these Macros</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<false/>
+				<key>Name</key>
+				<string>00)   ReadMe</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>5038CB6D-A79F-4572-908C-98034CB98879</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Brett Terpstra</string>
+		<key>UID</key>
+		<string>47DB4B2A-A29A-439E-AEC6-84AB56252161</string>
+	</dict>
+</array>
+</plist>
