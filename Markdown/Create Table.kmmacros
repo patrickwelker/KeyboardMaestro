@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>The macro creates a Markdown table and prompts you how many columns and rows you want to have in your table.
+
+Download the AppleScript too and change the path.
+
+As you can see below, I really suck at AppleScript and shell scripting. Any improvements are more than welcome. Drop me a mail at hello@rocketink.net so I can update this mess.</string>
+						<key>Title</key>
+						<string>Create Tables</string>
+					</dict>
+					<dict>
+						<key>Buttons</key>
+						<array>
+							<dict>
+								<key>Button</key>
+								<string>OK</string>
+							</dict>
+							<dict>
+								<key>Button</key>
+								<string>Cancel</string>
+								<key>Cancel</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>PromptForUserInput</string>
+						<key>Prompt</key>
+						<string>Set the basic layout of your Markdown table:</string>
+						<key>ResultButtonVariable</key>
+						<string>Result Button</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>Set Columns</string>
+						<key>Variables</key>
+						<array>
+							<dict>
+								<key>Default</key>
+								<string>2</string>
+								<key>Variable</key>
+								<string>Columns</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string>4</string>
+								<key>Variable</key>
+								<string>Rows</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>DisplayKind</key>
+						<string>Variable</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteShellScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>echo $(for i in $(seq 1 $KMVAR_Columns); do printf "| Cell "; done)</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>totalColumns</string>
+					</dict>
+					<dict>
+						<key>DisplayKind</key>
+						<string>Pasting</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteShellScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>repeat() {
+    x=$1
+    shift
+    while [ $(( x -= 1 )) -ge 0 ]
+    do
+        "$@"
+    done
+}
+repeat $KMVAR_Rows echo "$KMVAR_totalColumns"</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+					<dict>
+						<key>DisplayKind</key>
+						<string>Briefly</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteShellScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>echo $(for i in $(seq 1 $KMVAR_Rows); do osascript -e 'tell application "System Events"' -e 'key code 126 -- Arrow Up' -e 'end tell'; done)</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>columns</string>
+					</dict>
+					<dict>
+						<key>DisplayKind</key>
+						<string>Pasting</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteShellScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>echo $(for i in $(seq 1 $KMVAR_Columns); do printf "| Title "; done)
+echo $(for i in $(seq 1 $KMVAR_Columns); do printf "| ----- "; done)
+</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>columns</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>DeletePastClipboard</string>
+						<key>Past</key>
+						<integer>0</integer>
+						<key>PastExpression</key>
+						<string>0</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>DeletePastClipboard</string>
+						<key>Past</key>
+						<integer>0</integer>
+						<key>PastExpression</key>
+						<string>0</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>Create Table</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>DE81DCA3-6B4F-42E5-BA9E-50A404A4E208</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>## Patrick Welker: Markdown</string>
+		<key>UID</key>
+		<string>CB188E89-93CC-40EF-9777-691904338FF7</string>
+	</dict>
+</array>
+</plist>
