@@ -36,7 +36,7 @@ Source: http://rocketink.net/2013/05/quickcursor-keyboard-maestro.html</string>
 						<key>MacroActionType</key>
 						<string>SetVariableToText</string>
 						<key>Text</key>
-						<string>%CurrentApplication%</string>
+						<string>%Application%1%</string>
 						<key>Variable</key>
 						<string>Application</string>
 					</dict>
@@ -332,18 +332,16 @@ Source: http://rocketink.net/2013/05/quickcursor-keyboard-maestro.html</string>
 						<false/>
 					</dict>
 					<dict>
-						<key>Application</key>
-						<dict/>
+						<key>Action</key>
+						<string>SetWindowByName</string>
 						<key>IsActive</key>
 						<true/>
-						<key>IsDefaultApplication</key>
-						<true/>
 						<key>IsDisclosed</key>
-						<true/>
+						<false/>
 						<key>MacroActionType</key>
-						<string>Open1File</string>
-						<key>Path</key>
-						<string>/Applications/%Variable%Application%.app</string>
+						<string>UseVariable</string>
+						<key>Variable</key>
+						<string>Application</string>
 					</dict>
 					<dict>
 						<key>Action</key>
@@ -371,9 +369,9 @@ Source: http://rocketink.net/2013/05/quickcursor-keyboard-maestro.html</string>
 					</dict>
 				</array>
 				<key>IsActive</key>
-				<true/>
+				<false/>
 				<key>ModificationDate</key>
-				<real>391447468.57359701</real>
+				<real>391596793.14106297</real>
 				<key>Name</key>
 				<string>QuickCursor</string>
 				<key>Triggers</key>
