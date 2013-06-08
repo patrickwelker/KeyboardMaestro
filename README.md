@@ -60,6 +60,10 @@ A tutorial on how-to automatically sync Keyboard Maestro macros with the help of
 
 A simple replacement for Caffeine with Keyboard Maestro.
 
+## System » [Toggle Function Keys](http://rocketink.net/2013/06/toggle-function-keys.html)
+
+A macro to toggle between the F1, F2, etc. keys standard functions and the special functions.
+
 ## [Ultimate Markdown Maestro](http://rocketink.net/2013/01/markdown-maestro-guide.html)
 
 The content of this folder can function as a template for organizing your Keyboard Maestro library – especially when it comes to Markdown.
