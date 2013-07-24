@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>Uses AppleScript as List Handler instead of Keyboard Maestro for swift keyboard navigation.
+
+Optional: Use no signature (see comments in script).</string>
+						<key>Title</key>
+						<string>Choose Mail and use default signature</string>
+					</dict>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string>/Users/patte/Desktop/List-Chooser.scpt</string>
+						<key>Text</key>
+						<string>-- List Handler-- v1.0-- by Patrick Welker | http://rocketink.net-- Selects out of a list and hand over a variable to Keyboard Maestro------------------------------------------------------- Apple Mail Part borrow from Federico Viticci of MacStories-- Source: http://www.macstories.net/tutorials/automating-mail-signatures-and-senders-with-applescript-and-keyboard-maestro/------------------------------------------------------- Configuration-- 1. Install the macro from RocketINK-- 2. Add/Remove your list items and setup a default-- 3. Paste this code in the Keyboard Maestro Macro or set it up as an external scriptset the listItems to {"Federico Viticci &lt;viticci@macstories.net&gt;", "President of Special Business &lt;prompt@5by5.tv&gt;", "Federico Viticci &lt;me@ticci.org&gt;", "Federico Viticci &lt;viticci@me.com&gt;"}set defaultItem to {"President of Special Business &lt;prompt@5by5.tv&gt;"}set listTitle to "My Adresses List"-- Additional settings for the signatureset the list2Items to {"Signature #1", "Signature #2", "Signature #3", "Signature #4", "Signature #5", "Signature #6", "None"}set default2Item to "Signature #1"set list2Title to "Pick Signature"-----------------------------------------------------tell application "Keyboard Maestro Engine"	-- Bring Dialog to Front	activate	-- Dialog prompt to choose "Send From" Address	set myList to choose from list the listItems with title listTitle default items defaultItem	-- "OK" and "Cancel" actions	if myList is false then		-- Play beep and cancel all running macros		beep 1		do script "Cancel All Macros"	else		-- Gets the selected list and creates a variable		set fromAccount to myList as text
+		set mySignature to default2Item as text
+		-- Other option: IF canceled THEN default signature (comment line above, uncomment line below)
+		--set mySignature to ""
+	end ifend tell------------------------------------------------------- Apple Mail: fills in "From Address" and choosen signature-----------------------------------------------------tell application "Mail"	activate	set theSignatureName to mySignature	set theMessages to the selected messages of the front message viewer	set theMessage to first item of theMessages	set theOutgoingMessage to reply theMessage with opening window	set message signature of theOutgoingMessage to signature theSignatureName	set sender of theOutgoingMessage to fromAccountend tell</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<false/>
+						<key>TrimResultsNew</key>
+						<false/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>395447819.05239099</real>
+				<key>Name</key>
+				<string>Mail Reply</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>15</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>17C65ED6-1994-4094-9A53-4778D3F94F77</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Mail</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.apple.mail</string>
+					<key>Name</key>
+					<string>Mail</string>
+					<key>NewFile</key>
+					<string>/Applications/Mail.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>FDC52ACB-F36A-424D-8746-FA279F0A39A9</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>Text</key>
+						<string>Uses AppleScript as List Handler instead of Keyboard Maestro for swift keyboard navigation.
+Configure the the AppleScript before using it (see comments inside the script).
+The simplest way is to copy and paste it in the AppleScript Editor and pressing ⌘K – this way you have clean code to look at.
+Source: http://rocketink.net/</string>
+						<key>Title</key>
+						<string>Choose both Mail and signature</string>
+					</dict>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string>/Users/patte/Dropbox/Scripts/AppleScript/Mail Reply and Signature.scpt</string>
+						<key>Text</key>
+						<string>-------------------------------------------------------	Name: Simple List Handler for Apple Mail--	Author: Patrick Welker &lt;http://rocketink.net&gt;--	Version: 1.0 (July 21, 2013)--	For Apple Mail and Keyboard Maestro (&lt;http://www.keyboardmaestro.com&gt;)-------------------------------------------------------	Apple Mail Part borrow from Federico Viticci of MacStories (&lt;http://www.macstories.net/tutorials/automating-mail-signatures-and-senders-with-applescript-and-keyboard-maestro/&gt;)-------------------------------------------------------	Installation--	1. Use this script with an "Execute AppleScript action" and assign a hot key to it, c.f. ⌘R-- 	2. Add/Remove your list items and setup a default item in the configuration below-------------------------------------------------------	Configurationproperty emailList : {"Federico Viticci &lt;viticci@macstories.net&gt;", "President of Special Business &lt;prompt@5by5.tv&gt;", "Federico Viticci &lt;me@ticci.org&gt;", "Federico Viticci &lt;viticci@me.com&gt;"}property defaultEmail : "President of Special Business &lt;prompt@5by5.tv&gt;"property signatureList : {"Signature #1", "Signature #2", "Signature #3", "Signature #4", "Signature #5", "Signature #6", "None"}property defaultSignature : "Signature #1"property cancelSignatureDialog : true -- If Cancel/ESC dialog then use no signature; set to false for default signature--	Optionalset titleEmailDialog to "My Adresses List"set titleSignatureDialog to "Pick Signature"-----------------------------------------------------tell application "Keyboard Maestro Engine"	activate		--	Prompt for "Send From" Address	set selectedEmail to choose from list the emailList with title titleEmailDialog default items defaultEmail	if selectedEmail is false then -- Cancel script		beep 1		error number -128	else -- Gets the selected list and creates a variable		set fromAccount to selectedEmail as text	end if		--	Prompt for signature	set selectedSignature to choose from list the signatureList with prompt "For no signature press Cancel." with title titleSignatureDialog default items defaultSignature	if selectedSignature is false then -- If cancel rules		if cancelSignatureDialog then			set selectedSignature to ""			set mySignature to selectedSignature as text		else			set selectedSignature to defaultSignature			set mySignature to selectedSignature as text		end if	else		set mySignature to selectedSignature as text	end ifend tell--	Apple Mail: fills in "From Address" and choosen signaturetell application "Mail"	activate	set theSignatureName to mySignature	set theMessages to the selected messages of the front message viewer	set theMessage to first item of theMessages	set theOutgoingMessage to reply theMessage with opening window	set message signature of theOutgoingMessage to signature theSignatureName	set sender of theOutgoingMessage to fromAccountend tell</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<false/>
+						<key>TrimResultsNew</key>
+						<false/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>396269077.39557099</real>
+				<key>Name</key>
+				<string>Mail Reply + Choose Signature</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>15</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>57EB8CB3-7A9B-40F6-BCA7-72801BA1BEE9</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Mail</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.apple.mail</string>
+					<key>Name</key>
+					<string>Mail</string>
+					<key>NewFile</key>
+					<string>/Applications/Mail.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>FDC52ACB-F36A-424D-8746-FA279F0A39A9</string>
+	</dict>
+</array>
+</plist>
